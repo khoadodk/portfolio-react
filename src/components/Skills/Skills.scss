@@ -1,0 +1,18 @@
+#skills{
+    background: var(--mainGrey);
+    text-align: center;
+    .heading{
+        font-size: 20px;
+        h1{
+            margin: 0;
+            padding: 10px 0;
+        }
+    }
+    .skills-icons{
+        text-align: center;
+        .icon{
+            padding: 20px 30px;
+            font-size: 40px;
+        }
+    }
+}

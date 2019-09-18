@@ -1,0 +1,16 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans");
+html {
+    box-sizing: border-box;
+}
+:root {
+  --primaryColor: #1EBBA3;
+  --mainGrey: lightgrey;
+  --darkGrey: #5f5e5e;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+}
+.text-title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}

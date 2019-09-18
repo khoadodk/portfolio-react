@@ -1,0 +1,33 @@
+#contact{
+    text-align: center;
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    h1{
+        padding: 10px;
+        margin: 0;
+    }
+    form{
+        .form-name{
+            width: 60%;
+            padding: 5px 0;
+            font-weight: bolder;
+        }
+        .form-control{
+            width: 50%;
+            font-size: 15px;
+            padding: 10px 0;
+        }
+        textarea{
+            margin-top: 10px;
+        }
+        .submit-btn{
+            width: 50%;
+            font-size: 20px;
+            background-color: dodgerblue;
+            font-weight: 800;
+            margin: 10px 0;
+        }
+    }
+}

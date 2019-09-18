@@ -1,0 +1,64 @@
+nav {
+    position: -webkit-sticky;
+	position: sticky;
+	top:0;
+    background-color: transparent;
+	overflow: hidden;
+    padding: 1em;
+    text-transform: uppercase;
+	font-weight: bold;
+	z-index: 1000;
+	a {
+		color: var(--mainBlack);
+	}
+	a:hover {
+		color: var(--primaryColor);
+	}
+	border-bottom: 1px solid #000;
+	.navWide {
+		display: none;
+        margin: 0 auto;
+        .dev {
+            float: left;
+            height: 30px;
+            width: 30px;
+        }
+		.wideDiv {
+			text-align: center;
+			a {
+        
+				text-decoration: none;
+				display: inline-block;
+				padding: 0 2em;
+			}
+		}
+	}
+	.navNarrow {
+		.nav-icon {
+			float: left;
+			cursor: pointer;
+			height: 30px;
+		}
+		.narrowLinks {
+			display: none;
+			a {
+                
+				text-decoration: none;
+				display: block;
+				float: left;
+				clear: left;
+				padding: 0.5em 0;
+			}
+		}
+	}
+}
+@media (min-width: 768px) {	
+	nav {
+		.navWide {
+			display: block;
+		}
+		.navNarrow {
+			display: none;
+		}
+	}
+}
