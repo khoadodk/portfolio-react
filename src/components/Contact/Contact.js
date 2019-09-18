@@ -15,7 +15,7 @@ const Contact = () => {
                         type='text' 
                         className='form-control' 
                         name='firstName' 
-                        placeholder='John Doe' 
+                        
                         required
                     />
                     <div className="form-name">Email*</div>
@@ -23,7 +23,7 @@ const Contact = () => {
                         type='email' 
                         className='form-control' 
                         name='email' 
-                        placeholder='JohnDoe@email.com' 
+                        
                         required
                     />
                     <div className="form-name">Subject</div>
@@ -31,13 +31,13 @@ const Contact = () => {
                         type='text' 
                         className='form-control' 
                         name='subject' 
-                        placeholder='Subject' 
+                        
                     />
                     <textarea 
                         name='message'
                         className='form-control'
                         rows='10'
-                        placeholder="Hello! How are you?..."
+                        placeholder="Hi..."
                     >
                     </textarea>
                     <div className='form-group'>
