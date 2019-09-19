@@ -10,7 +10,10 @@ const Projects = ({projects}) => {
                     return (
                         <div className="container">
                             <h2>{project.title}</h2>
-                            <h4>{project.type}</h4>
+                            <img            
+                                src={`../../images/${project.type}`}
+                                alt="project type"
+                            />
                             <div className="img-container" key={project.id}>
                                 <img            
                                     src={`../../images/${project.img}`}

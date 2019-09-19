@@ -5,7 +5,7 @@ const projects = [
         title: "budget calculator",
         img: "budgetcal.png",
         description: "Users can edit, add, or delete the expense",
-        type: "React Hooks",
+        type: "react.png",
         github: "https://github.com/khoadodk/budget-calculator",
         demo: "https://budgetcal.netlify.com/"
     },
@@ -14,7 +14,7 @@ const projects = [
         title: "employee info",
         img: "CRUD.png",
         description: "A CRUD app that lets user add, view, edit or delete the employee info",
-        type: "NodeJS",
+        type: "nodejs.png",
         github: "https://github.com/khoadodk/CRUD-hbs",
         demo: "https://agile-bastion-41233.herokuapp.com/employee"
     },
@@ -23,7 +23,7 @@ const projects = [
         title: "tech store",
         img: "techstore.png",
         description: "A E-commerce store built with React Routers, Context API, styled-components",
-        type: "React",
+        type: "react.png",
         github: "https://github.com/khoadodk/tech-store-react",
         demo: "https://techstore-react.netlify.com"
     },
@@ -32,7 +32,7 @@ const projects = [
         title: "text to speech",
         img: "texttospeech.png",
         description: "A simple text to speech app using voicerss.org API",
-        type: "Vanilla Javascript",
+        type: "javascript.png",
         github: "https://github.com/khoadodk/texttospeech",
         demo:"https://texttospeech-khoado.netlify.com/"
     },
@@ -41,7 +41,7 @@ const projects = [
         title: "to do app",
         img: "todojs.png",
         description: "A to do app that allows users to add, edit or delete tasks",
-        type: "Vanilla Javascript",
+        type: "javascript.png",
         github: "https://github.com/khoadodk/todolist-js",
         demo:"https://todojs-khoado.netlify.com/"
     },
@@ -50,7 +50,7 @@ const projects = [
         title: "tic tac toe",
         img: "tictactoe.png",
         description: "Single player against the computer",
-        type: "Vanilla Javascript",
+        type: "javascript.png",
         github: "https://github.com/khoadodk/tictactoe",
         demo: "https://tictactoe-khoado.netlify.com/"
     },
@@ -59,7 +59,7 @@ const projects = [
         title: "weather app",
         img: "weather.png",
         description: "A weather app that shows temp, condition, zone. Toggle temp between C and F ",
-        type: "Vanilla Javascript",
+        type: "javascript.png",
         github: "https://github.com/khoadodk/weather-app",
         demo: "https://weather-khoado.netlify.com/"
     },
@@ -68,7 +68,7 @@ const projects = [
         title: "pixabay image finder",
         img: "pixabayimagefinder.png",
         description: "Search images using pixabay API and select amount of images",
-        type: "React",
+        type: "react.png",
         github: "https://github.com/khoadodk/pixabay-image-finder",
         demo: "https://pixabayimagefinder-khoado.netlify.com/"
     },
