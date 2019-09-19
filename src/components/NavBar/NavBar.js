@@ -21,7 +21,7 @@ class NavBar extends Component {
                         <a href="#skills">Skills</a>
                         <a href="#prohjects">Projects</a>
                         <a href="#contact">Contact Me</a>
-                        <a href="https://www.dropbox.com/s/0gn11debna8dspz/resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">Resume</a>
+                        <a href="https://www.dropbox.com/s/m72oksc4vxddyek/Resume%20%281%29.pdf?dl=0" target="_blank" rel="noopener noreferrer">Resume</a>
                     </div>
                 </div>
                 <div className="navNarrow">
@@ -31,7 +31,7 @@ class NavBar extends Component {
                         <a href="#skills" onClick={this.burgerToggle}>Skills</a>
                         <a href="#projects" onClick={this.burgerToggle}>Projects</a>
                         <a href="#contact" onClick={this.burgerToggle}>Contact Me</a>
-                        <a href="https://www.dropbox.com/s/0gn11debna8dspz/resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">Resume</a>
+                        <a href="https://www.dropbox.com/s/m72oksc4vxddyek/Resume%20%281%29.pdf?dl=0" target="_blank" rel="noopener noreferrer">Resume</a>
                     </div>
                 </div>
             </nav>
