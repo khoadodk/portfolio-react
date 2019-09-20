@@ -14,3 +14,15 @@ html {
   font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
 }
+footer{
+  text-align: center;
+  padding: 10px;
+  
+}
+a{
+  text-decoration: none;
+  color: var(--mainBlack);
+}
+a:hover{
+  color: var(--primaryColor);
+}

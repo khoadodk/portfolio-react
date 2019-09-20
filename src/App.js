@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import { FaGithub } from 'react-icons/fa'
+
+//Components
 import NavBar from './components/NavBar/NavBar';
 import Hero from './components/Hero/Hero';
 import Skills from './components/Skills/Skills';
@@ -16,6 +19,9 @@ class App extends Component{
         <Skills />
         <Projects  projects= {projects}/>
         <Contact />
+        <footer>
+          <a href='https://github.com/khoadodk/portfolio-react' target="_blank" rel="noopener noreferrer"><FaGithub /> Source Code</a>
+        </footer>
       </div>
     )
   }
