@@ -8,13 +8,13 @@ const Projects = ({projects}) => {
             <div className="card">
                 {projects.map(project => {
                     return (
-                        <div className="container">
+                        <div className="container" key={project.id}>
                             <h2>{project.title}</h2>
                             <img            
                                 src={`../../images/${project.type}`}
                                 alt="project type"
                             />
-                            <div className="img-container" key={project.id}>
+                            <div className="img-container">
                                 <img            
                                     src={`../../images/${project.img}`}
                                     alt="project"
