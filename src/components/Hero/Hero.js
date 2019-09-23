@@ -8,7 +8,7 @@ class Hero extends Component {
         const strings = [
             "I'm a Front-End Developer",
             "Graduate from Wake Tech Coding Bootcamp",
-            "Lover of technology (...especially crypto)",
+            "Lover of technology (...especially Blockchain and Crypto)",
             "A few of my skills are HTML, CSS, JS, React, mySQL",
             "I'm currently learning GraphQL, Python and Node...",
             "I pass my free time at the gym, reading books, and travel"
