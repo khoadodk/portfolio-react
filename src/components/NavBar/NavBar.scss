@@ -1,12 +1,12 @@
-nav {
-    position: -webkit-sticky;
+nav {  
+	background-color: transparent;
+	font-weight: bold;	
+    padding: 1em;   
+	position: -webkit-sticky;
 	position: sticky;
+	text-transform: uppercase;
 	top:0;
-    background-color: transparent;
 	overflow: hidden;
-    padding: 1em;
-    text-transform: uppercase;
-	font-weight: bold;
 	z-index: 1000;
 	a {
 		color: var(--mainBlack);
@@ -26,10 +26,9 @@ nav {
 		.wideDiv {
 			text-align: center;
 			a {
-        
-				text-decoration: none;
 				display: inline-block;
 				padding: 0 2em;
+				text-decoration: none;
 			}
 		}
 	}
@@ -42,12 +41,11 @@ nav {
 		.narrowLinks {
 			display: none;
 			a {
-                
-				text-decoration: none;
+				clear: left;
 				display: block;
 				float: left;
-				clear: left;
 				padding: 0.5em 0;
+				text-decoration: none;
 			}
 		}
 	}

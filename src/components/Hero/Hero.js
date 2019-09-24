@@ -10,7 +10,7 @@ class Hero extends Component {
             "Graduate from Wake Tech Coding Bootcamp",
             "Lover of technology (...especially Blockchain and Crypto)",
             "A few of my skills are HTML, CSS, JS, React, mySQL",
-            "I'm currently learning GraphQL, Python and Node...",
+            "I currently strengthen my Node, React skills ",
             "I pass my free time at the gym, reading books, and travel"
         ]
         return (

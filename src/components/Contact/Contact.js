@@ -37,7 +37,7 @@ const Contact = () => {
                         name='message'
                         className='form-control'
                         rows='10'
-                        placeholder="..."
+                        placeholder=""
                     >
                     </textarea>
                     <div className='form-group'>
