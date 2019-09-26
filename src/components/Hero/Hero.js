@@ -22,15 +22,17 @@ class Hero extends Component {
                         color: "#000",
                         blur: 1
                     }
-                },
+                }
+                ,
                 number: {
-                    value: 150,
+                    value: 100,
                     density: {
                         enable: true,
-                        value_area: 800
+                        value_area: 1200
                     }
                 }
-            },
+            }
+            ,
             "interactivity": {
                 "events": {
                     "onhover": {
