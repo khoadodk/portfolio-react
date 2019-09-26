@@ -1,13 +1,14 @@
 nav {  
 	background-color: var(--mainGrey);
 	opacity: 0.85;
-	font-weight: bold;	
-    padding: 1em;   
+	font-weight: bold;
+	padding-bottom: 7px;	
 	position: -webkit-sticky;
 	position: sticky;
 	text-transform: uppercase;
 	top:0;
 	overflow: hidden;
+	width: 100%;
 	z-index: 1000;
 	a {
 		color: var(--mainBlack);
@@ -18,11 +19,13 @@ nav {
 	border-bottom: 1px solid #000;
 	.navWide {
 		display: none;
-        margin: 0 auto;
+		margin: 0 auto;
+		padding: 10px;
         .dev {
             float: left;
             height: 30px;
-            width: 30px;
+			width: 30px;
+			padding-left: 10px;
         }
 		.wideDiv {
 			text-align: center;
@@ -34,10 +37,11 @@ nav {
 		}
 	}
 	.navNarrow {
+		padding-left: 10px;
 		.nav-icon {
 			float: left;
 			cursor: pointer;
-			height: 30px;
+			font-size: 25px;
 		}
 		.narrowLinks {
 			display: none;
