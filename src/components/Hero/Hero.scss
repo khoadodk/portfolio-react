@@ -10,7 +10,7 @@
         position: relative;
         height: 100%;
         width: 100%;
-        z-index: 1000;
+        z-index: 1;
     }
     .text-title{
         color: var(--primaryColor);
@@ -29,6 +29,7 @@
     .social-icons {
         position: absolute;
         padding-top: 300px;
+        z-index: 1000;
         a{ 
             color: var(--mainBlack);
             display: inline-block;
