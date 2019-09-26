@@ -1,23 +1,32 @@
 .hero {
-    background: url('./hero.jpg');
-    background-size: cover;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
     height: 100vh;
-    text-align: center;
+    width: 100vw;
+    .particle{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
     .text-title{
         color: var(--primaryColor);
         font-size: 50px;
+        position: absolute;
         text-shadow: 2px 2px var(--darkGrey);
+        padding-bottom: 200px;
     }
     .typed{
         color: var(--mainBlack);
         font-size: 30px;
         font-weight: bold;
-        padding-bottom: 50px;
+        padding-top: 100px;
+        position: absolute;
     }
     .social-icons {
+        position: absolute;
+        padding-top: 300px;
         a{ 
             color: var(--mainBlack);
             display: inline-block;

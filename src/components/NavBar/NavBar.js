@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './NavBar.scss';
 import { FaBars, FaDev } from 'react-icons/fa';
 
+
 class NavBar extends Component {
     burgerToggle = () => {
 		let linksEl = document.querySelector('.narrowLinks');

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Typed from 'react-typed';
 import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
 import './Hero.scss';
+import Particles from 'react-particles-js';
 
 class Hero extends Component {
     render(){
@@ -12,10 +13,41 @@ class Hero extends Component {
             "A few of my skills are HTML, CSS, JS, React, mySQL",
             "I currently strengthen my Node, React skills ",
             "I pass my free time at the gym, reading books, and travel"
-        ]
+        ];
+        const params = {
+            particles: {
+                line_linked: {
+                    shadow: {
+                        enable: true,
+                        color: "#000",
+                        blur: 1
+                    }
+                },
+                number: {
+                    value: 150,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                            "mode": "repulse"
+                    }
+                }
+            }
+        }
+
         return (
             <section id="hero">
-                <div className="hero">   
+                <div className="hero">
+                <Particles 
+                    params={params}
+                    className="particle"
+                />   
                     <h1 className="text-title">I'M KHOA DO</h1>
                     <Typed
                         className="typed"
