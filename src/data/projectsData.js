@@ -49,7 +49,7 @@ const projects = [
         id: 3,
         title: "tic tac toe",
         img: "tictactoe.png",
-        description: "Single player against the computer",
+        description: "A simple tic tac toe game",
         type: "javascript.png",
         github: "https://github.com/khoadodk/tictactoe",
         demo: "https://tictactoe-khoado.netlify.com/"

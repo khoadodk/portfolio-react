@@ -1,7 +1,8 @@
 .hero {
+    align-items: center;
+    background-color: var(--mainBlack);
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     height: 100vh;
     text-align: center;
@@ -16,14 +17,14 @@
         color: var(--primaryColor);
         font-size: 50px;
         position: absolute;
-        text-shadow: 2px 2px var(--darkGrey);
+        // text-shadow: 1px 1px var(--mainGrey);
         padding-bottom: 200px;
     }
     .typed{
-        color: var(--mainBlack);
-        font-size: 30px;
+        color: white;
+        font-size: 25px;
         font-weight: bold;
-        padding-top: 100px;
+        padding-top: 80px;
         position: absolute;
     }
     .social-icons {
@@ -31,7 +32,7 @@
         padding-top: 300px;
         z-index: 1000;
         a{ 
-            color: var(--mainBlack);
+            color:white;
             display: inline-block;
             font-size: 50px;   
             padding: 0 30px;
