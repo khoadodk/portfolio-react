@@ -8,7 +8,7 @@ function Footer() {
                 Site By Khoa Do {new Date().getFullYear()}
             </p>
             <a href='https://github.com/khoadodk/portfolio-react' target="_blank" rel="noopener noreferrer">
-                <FaGithub /> Source Code
+                <FaGithub /> Code
             </a>
         </div>
     )

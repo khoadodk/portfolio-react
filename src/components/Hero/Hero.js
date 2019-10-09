@@ -7,12 +7,12 @@ import Particles from 'react-particles-js';
 class Hero extends Component {
     render(){
         const strings = [
-            "I'm a Front-End Developer",
-            "Graduate from Wake Tech Coding Bootcamp",
-            "Lover of technology (...especially Blockchain and Crypto)",
-            "A few of my skills are HTML, CSS, JS, React, mySQL",
-            "I currently strengthen my Node, React skills ",
-            "I pass my free time at the gym, reading books, and travel"
+            "I'm a Full Stack Front-End Focused Developer",
+            "A self-taught programmer with BioChem background",
+            "Graduated from Wake Tech Coding Bootcamp 2019",
+            "I currently exploring the back-end languages",
+            "I pass my free time at the gym, reading books, and travel",
+            "Scroll down to see my skills and projects"
         ];
         const params = {
             particles: {

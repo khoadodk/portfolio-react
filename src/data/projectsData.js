@@ -1,6 +1,24 @@
 
 const projects = [
     {
+        id: 10,
+        title: "Live Chat",
+        img: "LiveChat.png",
+        description: "A RealTime Chat App using React, Node/Express, Socket.io",
+        type: "react.png",
+        github: "https://github.com/khoadodk/chat-app",
+        demo: "https://chat-khoado.netlify.com/"
+    },
+    {
+        id: 9,
+        title: "K Clothing",
+        img: "kclothing.png",
+        description: "An E-Commerce store built with React, Redux, Firebase, and Sass",
+        type: "react.png",
+        github: "https://github.com/khoadodk/k-clothing",
+        demo: "https://kclothing.netlify.com/"
+    },
+    {
         id: 6,
         title: "budget calculator",
         img: "budgetcal.png",
@@ -20,31 +38,31 @@ const projects = [
     },
     {
         id: 8,
-        title: "tech store",
-        img: "techstore.png",
+        title: "electrik store",
+        img: "electrikstore.png",
         description: "A E-commerce store built with React Routers, Context API, styled-components",
         type: "react.png",
         github: "https://github.com/khoadodk/tech-store-react",
         demo: "https://techstore-react.netlify.com"
     },
-    {
-        id: 1,
-        title: "text to speech",
-        img: "texttospeech.png",
-        description: "A simple text to speech app using voicerss.org API",
-        type: "javascript.png",
-        github: "https://github.com/khoadodk/texttospeech",
-        demo:"https://texttospeech-khoado.netlify.com/"
-    },
-    {
-        id: 2,
-        title: "to do app",
-        img: "todojs.png",
-        description: "A to do app that allows users to add, edit or delete tasks",
-        type: "javascript.png",
-        github: "https://github.com/khoadodk/todolist-js",
-        demo:"https://todojs-khoado.netlify.com/"
-    },
+    // {
+    //     id: 1,
+    //     title: "text to speech",
+    //     img: "texttospeech.png",
+    //     description: "A simple text to speech app using voicerss.org API",
+    //     type: "javascript.png",
+    //     github: "https://github.com/khoadodk/texttospeech",
+    //     demo:"https://texttospeech-khoado.netlify.com/"
+    // },
+    // {
+    //     id: 2,
+    //     title: "to do app",
+    //     img: "todojs.png",
+    //     description: "A to do app that allows users to add, edit or delete tasks",
+    //     type: "javascript.png",
+    //     github: "https://github.com/khoadodk/todolist-js",
+    //     demo:"https://todojs-khoado.netlify.com/"
+    // },
     {
         id: 3,
         title: "tic tac toe",
@@ -54,15 +72,15 @@ const projects = [
         github: "https://github.com/khoadodk/tictactoe",
         demo: "https://tictactoe-khoado.netlify.com/"
     },
-    {
-        id: 4,
-        title: "weather app",
-        img: "weather.png",
-        description: "A weather app that shows temp, condition, zone. Toggle temp between C and F ",
-        type: "javascript.png",
-        github: "https://github.com/khoadodk/weather-app",
-        demo: "https://weather-khoado.netlify.com/"
-    },
+    // {
+    //     id: 4,
+    //     title: "weather app",
+    //     img: "weather.png",
+    //     description: "A weather app that shows temp, condition, zone. Toggle temp between C and F ",
+    //     type: "javascript.png",
+    //     github: "https://github.com/khoadodk/weather-app",
+    //     demo: "https://weather-khoado.netlify.com/"
+    // },
     {
         id: 5,
         title: "pixabay image finder",
