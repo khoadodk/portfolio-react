@@ -13,12 +13,13 @@ const Skills = () => {
                     --- Robert Greene</q>
             </div>
             <div className="skills-icons">
-                <FaHtml5 className="icon" style={{color: "orangered"}} />
-                <FaCss3 className="icon" style={{color: "Dodgerblue"}} />
-                <FaJs className="icon" style={{color: "#F0DB4F"}} />
-                <FaReact className="icon" style={{color: "Dodgerblue"}} />
-                <FaNode className="icon" style={{color: "green"}} />
+                <FaHtml5 className="icon" title="HTML5"></FaHtml5>
+                <FaCss3 className="icon" title="CSS3" />
+                <FaJs className="icon" title="Javascript" />
+                <FaReact className="icon" title="ReactJS" />
+                <FaNode className="icon" title="NodeJS" />
             </div>
+            <hr/>
         </section>
     )
 }

@@ -7,8 +7,9 @@ function Footer() {
             <p className='text-title'>
                 Site By Khoa Do {new Date().getFullYear()}
             </p>
+            <FaGithub />
             <a href='https://github.com/khoadodk/portfolio-react' target="_blank" rel="noopener noreferrer">
-                <FaGithub /> Code
+            Code
             </a>
         </div>
     )

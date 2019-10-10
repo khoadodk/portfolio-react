@@ -4,8 +4,13 @@ const projects = [
         id: 10,
         title: "Live Chat",
         img: "LiveChat.png",
-        description: "A RealTime Chat App using React, Node/Express, Socket.io",
-        type: "react.png",
+        description: "Users can chat with real time in the same room",
+        type: [
+            "https://i.ibb.co/g36pFxh/react.png",
+            "https://i.ibb.co/QDjPf2k/nodejs.png",
+            "https://i.ibb.co/yPQTsrH/express.png",
+            "https://i.ibb.co/gVgWfWR/socketio.png"
+        ],
         github: "https://github.com/khoadodk/chat-app",
         demo: "https://chat-khoado.netlify.com/"
     },
@@ -14,7 +19,12 @@ const projects = [
         title: "K Clothing",
         img: "kclothing.png",
         description: "An E-Commerce store built with React, Redux, Firebase, and Sass",
-        type: "react.png",
+        type: [
+            "https://i.ibb.co/G9GZc2N/react.png",
+            "https://i.ibb.co/sW7zvSW/redux.png",
+            "https://i.ibb.co/5Lg6mhj/sass.jpg",
+            "https://i.ibb.co/bgJWxrj/firebase.png"
+        ],
         github: "https://github.com/khoadodk/k-clothing",
         demo: "https://kclothing.netlify.com/"
     },
@@ -23,7 +33,7 @@ const projects = [
         title: "budget calculator",
         img: "budgetcal.png",
         description: "Users can edit, add, or delete the expense",
-        type: "react.png",
+        type: ["https://i.ibb.co/G9GZc2N/react.png"],
         github: "https://github.com/khoadodk/budget-calculator",
         demo: "https://budgetcal.netlify.com/"
     },
@@ -32,7 +42,7 @@ const projects = [
         title: "employee info",
         img: "CRUD.png",
         description: "A CRUD app that lets user add, view, edit or delete the employee info",
-        type: "nodejs.png",
+        type: ["https://i.ibb.co/QDjPf2k/nodejs.png","https://i.ibb.co/yPQTsrH/express.png"],
         github: "https://github.com/khoadodk/CRUD-hbs",
         demo: "https://agile-bastion-41233.herokuapp.com/employee"
     },
@@ -41,7 +51,7 @@ const projects = [
         title: "electrik store",
         img: "electrikstore.png",
         description: "A E-commerce store built with React Routers, Context API, styled-components",
-        type: "react.png",
+        type: ["https://i.ibb.co/G9GZc2N/react.png"],
         github: "https://github.com/khoadodk/tech-store-react",
         demo: "https://techstore-react.netlify.com"
     },
@@ -63,15 +73,15 @@ const projects = [
     //     github: "https://github.com/khoadodk/todolist-js",
     //     demo:"https://todojs-khoado.netlify.com/"
     // },
-    {
-        id: 3,
-        title: "tic tac toe",
-        img: "tictactoe.png",
-        description: "A simple tic tac toe game",
-        type: "javascript.png",
-        github: "https://github.com/khoadodk/tictactoe",
-        demo: "https://tictactoe-khoado.netlify.com/"
-    },
+    // {
+    //     id: 3,
+    //     title: "tic tac toe",
+    //     img: "tictactoe.png",
+    //     description: "A simple tic tac toe game",
+    //     // type: "javascript.png",
+    //     github: "https://github.com/khoadodk/tictactoe",
+    //     demo: "https://tictactoe-khoado.netlify.com/"
+    // },
     // {
     //     id: 4,
     //     title: "weather app",
@@ -86,7 +96,7 @@ const projects = [
         title: "pixabay image finder",
         img: "pixabayimagefinder.png",
         description: "Search images using pixabay API and select amount of images",
-        type: "react.png",
+        type: ["https://i.ibb.co/G9GZc2N/react.png"],
         github: "https://github.com/khoadodk/pixabay-image-finder",
         demo: "https://pixabayimagefinder-khoado.netlify.com/"
     },

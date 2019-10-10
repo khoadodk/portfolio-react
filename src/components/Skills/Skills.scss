@@ -3,7 +3,7 @@
     text-align: center;
     width: 100%;
     .heading{
-        font-size: 20px;
+        font-size: 22px;
         h1{
             margin: 0;
             padding: 10px 0;
@@ -13,7 +13,16 @@
         text-align: center;
         .icon{
             font-size: 40px;
-            padding: 20px 30px;   
+            padding: 20px 30px;  
+            &:hover .tooltip{
+                display: inline-block;
+            } 
         }
+        .tooltip{
+            visibility: hidden;
+        }
+    }
+    hr{
+        width: 50%
     }
 }

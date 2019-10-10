@@ -4,7 +4,7 @@ html {
     box-sizing: border-box;
 }
 :root {
-  --primaryColor: #1EBBA3;
+  --primaryColor: rgb(25, 195, 238);
   --mainGrey: lightgrey;
   --darkGrey: #5f5e5e;
   --mainWhite: #fff;
