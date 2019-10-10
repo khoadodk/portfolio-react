@@ -3,19 +3,49 @@
     text-align: center;
     width: 100%;
     .heading{
-        font-size: 22px;
+        font-size: 20px;
         h1{
             margin: 0;
             padding: 10px 0;
         }
+        .card-container{
+            display: flex;
+            justify-content: space-around;
+            .card{
+                background-color:var(--mainGrey);
+                padding: 10px;
+                width: 23%;
+                h4{
+                    text-transform: capitalize;
+                }
+                p{
+                    font-size: 17px;
+                    font-weight: 300;
+                }
+            }
+            @media (max-width: 414px) {	
+                .card {
+                    h4{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                }
+            }
+        } 
     }
+
+
+
+
     .skills-icons{
         text-align: center;
         .icon{
             font-size: 40px;
             padding: 20px 30px;  
-            &:hover .tooltip{
-                display: inline-block;
+            &:hover{
+                transform: scale(1.2);
             } 
         }
         .tooltip{

@@ -17,7 +17,7 @@ class NavBar extends Component {
             <nav>
                 <div className="navWide">    
                     <div className="wideDiv">
-                        <FaDev className="dev" />
+                        <FaDev className="dev" title="Khoa Do"/>
                         <a href="#hero">About Me</a>
                         <a href="#skills">Skills</a>
                         <a href="#prohjects">Projects</a>

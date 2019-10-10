@@ -5,7 +5,7 @@ html {
 }
 :root {
   --primaryColor: rgb(25, 195, 238);
-  --mainGrey: lightgrey;
+  --mainGrey: #ededed;
   --darkGrey: #5f5e5e;
   --mainWhite: #fff;
   --mainBlack: #222;

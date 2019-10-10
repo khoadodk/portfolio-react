@@ -13,7 +13,8 @@
         text-transform: capitalize;
     }
     .container {
-        border: 1px solid black;
+        border: 2px solid black;
+        border-radius: 6px;
         margin: 10px 0;
     }
     h2{
@@ -51,7 +52,7 @@
             overflow: hidden;
             width: 400px;
             p{
-                padding-top: 50px;
+                padding: 50px 5px 0 5px;
             }
             button{
                 border-radius: 5px;

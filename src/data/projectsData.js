@@ -18,7 +18,7 @@ const projects = [
         id: 9,
         title: "K Clothing",
         img: "kclothing.png",
-        description: "An E-Commerce store built with React, Redux, Firebase, and Sass",
+        description: "An E-Commere store, user can add/edit/delete cart and process payment with stripe",
         type: [
             "https://i.ibb.co/G9GZc2N/react.png",
             "https://i.ibb.co/sW7zvSW/redux.png",
@@ -50,7 +50,7 @@ const projects = [
         id: 8,
         title: "electrik store",
         img: "electrikstore.png",
-        description: "A E-commerce store built with React Routers, Context API, styled-components",
+        description: "A Simple E-Commerce Store that lets user filter categories",
         type: ["https://i.ibb.co/G9GZc2N/react.png"],
         github: "https://github.com/khoadodk/tech-store-react",
         demo: "https://techstore-react.netlify.com"
