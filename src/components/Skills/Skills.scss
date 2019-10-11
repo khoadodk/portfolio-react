@@ -15,6 +15,10 @@
                 background-color:var(--mainGrey);
                 padding: 10px;
                 width: 23%;
+                &:hover {
+                    box-shadow: 5px 5px 2px var(--darkGrey);
+                    transform: scale(1.05);
+                }
                 h4{
                     text-transform: capitalize;
                 }
@@ -37,7 +41,10 @@
     }
 
 
-
+    .quote{
+        font-size: 20px;
+        padding-top: 20px;
+    }
 
     .skills-icons{
         text-align: center;

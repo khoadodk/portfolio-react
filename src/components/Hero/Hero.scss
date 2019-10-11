@@ -14,13 +14,14 @@
         z-index: 500;
     }
     .text-title{
+        animation: topIn 1s ease-out 0.5s;
         color: var(--primaryColor);
         font-size: 50px;
         position: absolute;
-        // text-shadow: 1px 1px var(--mainGrey);
-        padding-bottom: 200px;
+        padding-bottom: 200px;  
     }
     .typed{
+        animation: leftIn 1s ease-out 0.5s;
         color: white;
         font-size: 25px;
         font-weight: bold;
@@ -28,6 +29,7 @@
         position: absolute;
     }
     .social-icons {
+        animation: rightIn 1s ease-out 0.5s;
         position: absolute;
         padding-top: 300px;
         z-index: 1000;
@@ -44,4 +46,5 @@
         }
     }
 }
+
 

@@ -26,9 +26,11 @@ const Projects = ({projects}) => {
                                     className="project-img"
                                 />
                                 <div className="project-buttons">
-                                    <p>{project.description}</p>
-                                    <button><a href={project.github} target="_blank" rel="noopener noreferrer">github</a></button> 
-                                    <button><a href={project.demo} target="_blank" rel="noopener noreferrer">live demo</a></button>
+                                    <div className="project-overlay">
+                                        <p>{project.description}</p>
+                                        <button><a href={project.github} target="_blank" rel="noopener noreferrer">github</a></button> 
+                                        <button><a href={project.demo} target="_blank" rel="noopener noreferrer">live demo</a></button>
+                                    </div>
                                 </div>  
                             </div>  
                         </div>

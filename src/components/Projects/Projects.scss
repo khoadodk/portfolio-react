@@ -34,9 +34,10 @@
         &:hover .project-buttons{
             display: block;
             max-height: 200px;
-            transition-property: all;
-            transition-duration: 1.5s;
-            transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+            transition: all 1s ease;
+        }
+        &:hover .project-overlay{
+            animation: topIn 1s ease;
         }
         .project-img{
             height: 200px;

@@ -11,8 +11,8 @@ const Skills = () => {
                 <div className="card-container">
                     <div className="card" >
                         <h4>foundation</h4>
-                        <p>We don't use algorithms and data structures much at work. But understanding them will make us become the better problem solvers. 
-                            Focus on learning the fundamentals of one language and be the master of it.
+                        <p>We don't use algorithms and data structures much at work. But I think understanding them will make us the better at problem solving. 
+                            I focus on learning the fundamentals of one language and be the master of it.
                         </p>
                     </div>
                     <div className="card" >
@@ -31,8 +31,7 @@ const Skills = () => {
                 </div>
             </div>
 
-            <div className="heading">
-                <h1>SKILLS</h1>
+            <div className="quote">
                 <q>The future belongs to those who learn 
                     more skills and combine them in creative ways 
                     --- Robert Greene</q>

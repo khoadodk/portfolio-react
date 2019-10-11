@@ -10,8 +10,8 @@ class Hero extends Component {
             "I'm a Full Stack Front-End Focused Developer",
             "A self-taught programmer with BioChem background",
             "Graduated from Wake Tech Coding Bootcamp 2019",
-            "I currently exploring the back-end languages",
-            "I pass my free time at the gym, reading books, and travel",
+            "I currently exploring the back-end side",
+            "I pass my free time at the gym, reading books, and listening to SWE podcasts",
             "Scroll down to see my skills and projects"
         ];
         const params = {

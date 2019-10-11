@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans");
 html {
     box-sizing: border-box;
@@ -14,10 +13,46 @@ html {
   font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
 }
-a{
-  text-decoration: none;
-  color: var(--mainBlack);
+
+@keyframes leftIn {
+  0%{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80%{
+    transform: translateX(50px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
 }
-a:hover{
-  color: var(--primaryColor);
+
+@keyframes rightIn {
+  0%{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+  80%{
+      transform: translateX(-100px);
+  }
+  100%{
+      opacity: 1;
+      transform: translate(0);
+  }
 }
+
+@keyframes topIn {
+  0%{ 
+      opacity: 0;
+      transform: translateY(-150px);
+  }
+  80%{
+      transform: translateY(20px);
+  }
+  100%{
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+

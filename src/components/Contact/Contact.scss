@@ -37,7 +37,8 @@
             text-transform: uppercase;
             width: 15%;
             &:hover{
-                background-color:lightskyblue;
+                
+                box-shadow: 2px 2px 2px var(--darkGrey);
             }
         }
     }
