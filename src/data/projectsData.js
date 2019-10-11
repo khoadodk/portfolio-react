@@ -20,7 +20,7 @@ const projects = [
         img: "kclothing.png",
         description: "An E-Commere store, user can add/edit/delete cart and process payment with stripe",
         type: [
-            "https://i.ibb.co/G9GZc2N/react.png",
+            "https://i.ibb.co/g36pFxh/react.png",
             "https://i.ibb.co/sW7zvSW/redux.png",
             "https://i.ibb.co/5Lg6mhj/sass.jpg",
             "https://i.ibb.co/bgJWxrj/firebase.png"
@@ -33,7 +33,7 @@ const projects = [
         title: "budget calculator",
         img: "budgetcal.png",
         description: "Users can edit, add, or delete the expense",
-        type: ["https://i.ibb.co/G9GZc2N/react.png"],
+        type: ["https://i.ibb.co/g36pFxh/react.png"],
         github: "https://github.com/khoadodk/budget-calculator",
         demo: "https://budgetcal.netlify.com/"
     },
@@ -51,7 +51,7 @@ const projects = [
         title: "electrik store",
         img: "electrikstore.png",
         description: "A Simple E-Commerce Store that lets user filter categories",
-        type: ["https://i.ibb.co/G9GZc2N/react.png"],
+        type: ["https://i.ibb.co/g36pFxh/react.png"],
         github: "https://github.com/khoadodk/tech-store-react",
         demo: "https://techstore-react.netlify.com"
     },
@@ -96,7 +96,7 @@ const projects = [
         title: "pixabay image finder",
         img: "pixabayimagefinder.png",
         description: "Search images using pixabay API and select amount of images",
-        type: ["https://i.ibb.co/G9GZc2N/react.png"],
+        type: ["https://i.ibb.co/g36pFxh/react.png"],
         github: "https://github.com/khoadodk/pixabay-image-finder",
         demo: "https://pixabayimagefinder-khoado.netlify.com/"
     },

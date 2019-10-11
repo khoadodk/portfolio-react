@@ -25,6 +25,11 @@
             padding: 10px 0;
             width: 50%;
         }
+        @media (max-width: 768px) {	
+            .form-control {
+                width: 70%;
+            }
+        }
         textarea{
             border: 1px solid black;
             margin-top: 10px;
@@ -37,8 +42,8 @@
             text-transform: uppercase;
             width: 15%;
             &:hover{
-                
                 box-shadow: 2px 2px 2px var(--darkGrey);
+                transform: scale(1.05);
             }
         }
     }
