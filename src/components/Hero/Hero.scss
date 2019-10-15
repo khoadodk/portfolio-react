@@ -1,56 +1,58 @@
 .hero {
-    align-items: center;
     background-color: var(--mainBlack);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 100vh;
+    height: 70vh;
+    width: 100vw;
+    padding-top: 150px;
     text-align: center;
-    width: 100%;
     .particle{
-        position: relative;
-        height: 100%;
-        width: 100%;
+        position: absolute;
+        height: 70vh;
+        width: 100vw;
         z-index: 500;
     }
-    .text-title{
-        animation: topIn 1s ease-out 0.5s;
-        -webkit-animation: topIn 1s ease-out 0.5s;
-        animation-delay: 0s;
-        color: var(--primaryColor);
-        font-size: 50px;
-        position: absolute;
-        padding-bottom: 200px;  
-    }
-    .typed{
-        animation: leftIn 1s ease-out 0.5s;
-        -webkit-animation: leftIn 1s ease-out 0.5s;
-        animation-delay: 0s;
-        color: white;
-        font-size: 25px;
-        font-weight: bold;
-        padding-top: 80px;
-        position: absolute;
-    }
-    .social-icons {
-        animation: rightIn 1s ease-out 0.5s;
-        -webkit-animation: rightIn 1s ease-out 0.5s;
-        animation-delay: 0s;
-        position: absolute;
-        padding-top: 300px;
-        z-index: 1000;
-        a{ 
-            color:white;
-            display: inline-block;
-            font-size: 50px;   
-            padding: 0 30px;
-            text-decoration: none;
-        }
-        a:hover{
+    .hero-container{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        z-index: 99999;
+        .text-title{
+            animation: topIn 1s ease-out 0.5s;
+            -webkit-animation: topIn 1s ease-out 0.5s;
+            animation-delay: 0s;
             color: var(--primaryColor);
-            transform: scale(1.1);
+            h1 {
+                margin: 0;
+                font-size: 50px;
+            } 
+        }
+        .typed{
+            animation: leftIn 1s ease-out 0.5s;
+            -webkit-animation: leftIn 1s ease-out 0.5s;
+            animation-delay: 0s;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            padding: 10vh 0;
+        }
+        .social-icons {
+            animation: rightIn 1s ease-out 0.5s;
+            -webkit-animation: rightIn 1s ease-out 0.5s;
+            animation-delay: 0s;
+            z-index: 1000;
+            a{ 
+                color:white;
+                display: inline-block;
+                font-size: 50px;   
+                padding: 0 30px;
+                text-decoration: none;
+            }
+            a:hover{
+                color: var(--primaryColor);
+                transform: scale(1.1);
+            }
         }
     }
+    
 }
 
 

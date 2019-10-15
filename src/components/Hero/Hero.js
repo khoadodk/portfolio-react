@@ -50,7 +50,10 @@ class Hero extends Component {
                     params={params}
                     className="particle"
                 />   
-                    <h1 className="text-title">I'M KHOA DO</h1>
+                <div className="hero-container">
+                    <div className="text-title">
+                        <h1>I'M KHOA DO</h1>
+                    </div>
                     <Typed
                         className="typed"
                         strings={strings}
@@ -58,10 +61,11 @@ class Hero extends Component {
                         backSpeed={50}
                         loop >
                     </Typed>
-                    <div className="social-icons">
-                        <a href="https://github.com/khoadodk" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                        <a href="https://www.linkedin.com/in/khoa-do-a80148188/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-                        <a href="https://www.facebook.com/dkyanh" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+                        <div className="social-icons">
+                            <a href="https://github.com/khoadodk" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                            <a href="https://www.linkedin.com/in/khoa-do-a80148188/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+                            <a href="https://www.facebook.com/dkyanh" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+                        </div>
                     </div>
                 </div>    
             </section>
