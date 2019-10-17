@@ -53,6 +53,7 @@ class Hero extends Component {
                 <div className="hero-container">
                     <div className="text-title">
                         <h1>I'M KHOA DO</h1>
+                        <span>Give me a problem, I will give you many solutions.</span>
                     </div>
                     <Typed
                         className="typed"

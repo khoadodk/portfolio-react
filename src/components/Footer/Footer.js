@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div id="footer">
             <p className='text-title'>
-                Site By Khoa Do {new Date().getFullYear()}
+                Created By Khoa Do {new Date().getFullYear()}
             </p>
             <div className="code-link">
                 <FaGithub />

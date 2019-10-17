@@ -55,3 +55,11 @@ html {
       transform: translate(0);
   }
 }
+@keyframes shine {
+  from {
+    mask-position: 150%;
+  }
+  to {
+    mask-position: -50%;
+  }
+}
