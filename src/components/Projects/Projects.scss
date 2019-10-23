@@ -1,77 +1,77 @@
-#projects{
-    text-align: center; 
-    h1{
-        font-size: 30px;
+#projects {
+  text-align: center;
+  width: 100vw;
+  h1 {
+    font-size: 30px;
+  }
+  .card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .container {
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 20px;
+  }
+  h2 {
+    color: rgb(17, 92, 143);
+    margin: 5px;
+    text-transform: uppercase;
+    text-shadow: 1px 0.5px var(--darkGrey);
+  }
+  .image-type {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+  }
+  .img-container {
+    display: flex;
+    position: relative;
+    &:hover .project-buttons {
+      display: block;
+      max-height: 200px;
+      transition: all 1s ease;
     }
-    .card{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;  
-        padding-bottom: 20px;
-        text-align: center;
-        text-transform: capitalize;
+    &:hover .project-overlay {
+      animation: topIn 1s ease;
     }
-    .container {
-        border: 2px solid black;
-        border-radius: 6px;
-        margin: 10px 0;
+    .project-img {
+      opacity: 0.8;
+      height: 200px;
     }
-    h2{
-        color: rgb(17, 92, 143);
-        margin: 5px;
+    .project-buttons {
+      background: var(--mainGrey);
+      opacity: 0.95;
+      display: block;
+      font-weight: bold;
+      height: 200px;
+      position: absolute;
+      max-height: 0;
+      overflow: hidden;
+      width: 400px;
+      p {
+        padding: 50px 5px 0 5px;
+      }
+      button {
+        border-radius: 5px;
+        margin: 0 10px;
         text-transform: uppercase;
-        text-shadow: 1px 0.5px var(--darkGrey);
-    }
-    .image-type{
-        display: flex;
-        justify-content: space-around;
-        padding: 5px 0;
-    }
-    .img-container{
-        display: flex;
-        position: relative;
-        &:hover .project-buttons{
-            display: block;
-            max-height: 200px;
-            transition: all 1s ease;
+        &:hover {
+          background-color: var(--primaryColor);
+          transform: scale(1.1);
         }
-        &:hover .project-overlay{
-            animation: topIn 1s ease;
-        }
-        .project-img{
-            opacity: 0.8;
-            height: 200px;
-        }    
-        .project-buttons{
-            background: var(--mainGrey);
-            opacity: 0.95;
-            display: block;       
-            font-weight: bold;
-            height: 200px;
-            position: absolute;
-            max-height: 0;
-            overflow: hidden;
-            width: 400px;
-            p{
-                padding: 50px 5px 0 5px;
-            }
-            button{
-                border-radius: 5px;
-                margin: 0 10px;
-                text-transform: uppercase;
-                &:hover {
-                    background-color: var(--primaryColor);
-                    transform: scale(1.1);
-                }
-            }
-            a{
-                color: var(--mainBlack);
-                display: block;
-                font-weight: bold;
-                text-decoration: none;
-            }
-        }
+      }
+      a {
+        color: var(--mainBlack);
+        display: block;
+        font-weight: bold;
+        text-decoration: none;
+      }
     }
+  }
 }
-

@@ -1,6 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans");
-html {
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans');
+body {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 :root {
   --primaryColor: rgb(25, 195, 238);
@@ -10,49 +12,48 @@ html {
   --mainBlack: #222;
 }
 .text-title {
-  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
 }
 
 @keyframes leftIn {
-  0%{
+  0% {
     opacity: 0;
     transform: translateX(-100px);
   }
-  80%{
+  80% {
     transform: translateX(50px);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: translate(0);
   }
 }
 
 @keyframes rightIn {
-  0%{
-      opacity: 0;
-      transform: translateX(50px);
-    }
-  80%{
-      transform: translateX(-100px);
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
   }
-  100%{
-      opacity: 1;
-      transform: translate(0);
+  80% {
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
   }
 }
 
 @keyframes topIn {
-  0%{ 
-      opacity: 0;
-      transform: translateY(-150px);
+  0% {
+    opacity: 0;
+    transform: translateY(-150px);
   }
-  80%{
-      transform: translateY(20px);
+  80% {
+    transform: translateY(20px);
   }
-  100%{
-      opacity: 1;
-      transform: translate(0);
+  100% {
+    opacity: 1;
+    transform: translate(0);
   }
 }
 @keyframes shine {

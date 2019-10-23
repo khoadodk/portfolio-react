@@ -1,70 +1,71 @@
-nav {  
-	background-color: var(--mainGrey);
-	opacity: 0.85;
-	font-weight: bold;
-	padding: 7px 0;	
-	position: -webkit-sticky;
-	position: sticky;
-	text-transform: uppercase;
-	top:0;
-	overflow: hidden;
-	width: 100%;
-	z-index: 1000;
-	a {
-		color: var(--mainBlack);
-	}
-	a:hover {
-		color: var(--primaryColor);
-	}
-	border-bottom: 1px solid #000;
-	.navWide {
-		display: none;
-		margin: 0 auto;
-		padding: 10px;
-        .dev {
-            float: left;
-            height: 30px;
-			padding-left: 10px;
-			width: 30px;
-			&:hover {
-				transform: scale(1.2);
-			}
-        }
-		.wideDiv {
-			text-align: center;
-			a {
-				display: inline-block;
-				padding: 0 2em;
-				text-decoration: none;
-			}
-		}
-	}
-	.navNarrow {
-		padding-left: 10px;
-		.nav-icon {
-			float: left;
-			cursor: pointer;
-			font-size: 25px;
-		}
-		.narrowLinks {
-			display: none;
-			a {
-				clear: left;
-				display: block;
-				float: left;
-				padding: 0.5em 0;
-				text-decoration: none;
-			}
-		}
-	}
+nav {
+  background-color: var(--mainGrey);
+  opacity: 0.85;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 7px 0;
+  position: -webkit-sticky;
+  position: sticky;
+  text-transform: uppercase;
+  top: 0;
+  overflow: hidden;
+  width: 100vw;
+  z-index: 1000;
+  a {
+    color: var(--mainBlack);
+  }
+  a:hover {
+    color: var(--primaryColor);
+  }
+  border-bottom: 1px solid #000;
+  .navWide {
+    display: none;
+    margin: 0 auto;
+    padding: 10px;
+    .dev {
+      float: left;
+      height: 30px;
+      padding-left: 10px;
+      width: 30px;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    .wideDiv {
+      text-align: center;
+      a {
+        display: inline-block;
+        padding: 0 2em;
+        text-decoration: none;
+      }
+    }
+  }
+  .navNarrow {
+    padding-left: 10px;
+    .nav-icon {
+      float: left;
+      cursor: pointer;
+      font-size: 25px;
+    }
+    .narrowLinks {
+      display: none;
+      a {
+        clear: left;
+        display: block;
+        float: left;
+        padding: 0.5em 0;
+        text-decoration: none;
+      }
+    }
+  }
 }
-@media (min-width: 768px) {	
-	nav {
-		.navWide {
-			display: block;
-		}
-		.navNarrow {
-			display: none;
-		}
-	}
+@media (min-width: 768px) {
+  nav {
+    .navWide {
+      display: block;
+    }
+    .navNarrow {
+      display: none;
+    }
+  }
 }
