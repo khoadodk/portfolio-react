@@ -1,5 +1,20 @@
 const projects = [
   {
+    id: 12,
+    title: 'Social Forum',
+    img: 'socialforum.png',
+    description:
+      'User can make a post, follow and live chat with other users in this full stack Javascript app.',
+    type: [
+      'https://i.ibb.co/02LZKnf/javascript.png',
+      'https://i.ibb.co/QDjPf2k/nodejs.png',
+      'https://i.ibb.co/yPQTsrH/express.png',
+      'https://i.ibb.co/yftp6XF/mongodb.png'
+    ],
+    github: 'https://github.com/khoadodk/jsapp-fullstack',
+    demo: 'https://socialkhoado.herokuapp.com/'
+  },
+  {
     id: 11,
     title: 'eSurvey',
     img: 'esurvey.png',

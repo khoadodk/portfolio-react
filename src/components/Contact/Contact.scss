@@ -1,50 +1,53 @@
-#contact{
-    // background: #1c92d2;  
-    // background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  
-    // background: linear-gradient(to right, #f2fcfe, #1c92d2); 
-    position: relative;
-    left: 10%;
-    text-align: center;
-    text-transform: uppercase;
-    width: 80%;
-    h1{
-        padding: 10px;
-        margin: 0;
+#contact {
+  //   background: var(--primaryColor);
+  //   background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+  //   background: linear-gradient(to right, #f2fcfe, #1c92d2);
+  box-shadow: 2px 2px 1px var(--darkGrey);
+  border: solid var(--mainBlack);
+  position: relative;
+  left: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+  h1 {
+    padding: 10px;
+    margin: 0;
+  }
+  form {
+    .form-name {
+      font-weight: bolder;
+      padding: 5px 0;
+      width: 60%;
     }
-    form{
-        .form-name{
-            font-weight: bolder;
-            padding: 5px 0;
-            width: 60%;
-        }
-        input{
-            border: 1px solid black;
-        }
-        .form-control{
-            font-size: 15px;
-            padding: 10px 0;
-            width: 50%;
-        }
-        @media (max-width: 768px) {	
-            .form-control {
-                width: 70%;
-            }
-        }
-        textarea{
-            border: 1px solid black;
-            margin-top: 10px;
-        }
-        .submit-btn{
-            background-color: var(--mainGrey);
-            font-weight: bold;
-            margin: 15px 0 20px 0;
-            padding: 5px;
-            text-transform: uppercase;
-            width: 15%;
-            &:hover{
-                box-shadow: 2px 2px 2px var(--darkGrey);
-                transform: scale(1.05);
-            }
-        }
+    input {
+      border: 1px solid black;
     }
+    .form-control {
+      font-size: 15px;
+      padding: 10px 0;
+      width: 50%;
+    }
+    @media (max-width: 768px) {
+      .form-control {
+        width: 70%;
+      }
+    }
+    textarea {
+      border: 1px solid black;
+      margin-top: 10px;
+    }
+    .submit-btn {
+      background-color: var(--mainWhite);
+      font-weight: bold;
+      margin: 15px 0 20px 0;
+      padding: 5px;
+      text-transform: uppercase;
+      width: 15%;
+      &:hover {
+        background-color: var(--primaryColor);
+        box-shadow: 2px 2px 2px var(--darkGrey);
+        transform: scale(1.05);
+      }
+    }
+  }
 }

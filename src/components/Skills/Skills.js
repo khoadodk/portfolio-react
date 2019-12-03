@@ -6,32 +6,22 @@ const Skills = () => {
   return (
     <section id='skills'>
       <div className='heading'>
-        <h1>MY PRINCIPLES</h1>
+        <h1>PRINCIPLES & SKILLS</h1>
         <div className='card-container'>
           <div className='card'>
             <h4>foundation</h4>
             <p>
-              We don't use algorithms and data structures much at work. But I
-              think understanding them will make us the better at problem
-              solving. I focus on learning the fundamentals of one language and
-              be the master of it.
+              Focus on learning the fundamentals of one language and be the
+              master of it.
             </p>
           </div>
           <div className='card'>
-            <h4>clean, maintainable, scalable code</h4>
-            <p>
-              Clean code will reduce frequency of bugs, long-term costs of
-              maintenance and increase collaboration and productivity. So my aim
-              is to write clean, simple, and easy to read code.
-            </p>
+            <h4>communication</h4>
+            <p>Good communication beats thousands of lines of good code</p>
           </div>
           <div className='card'>
             <h4>always be learning</h4>
-            <p>
-              Programming is about 80% of studying and 20% of writing code. The
-              web technology is growing fast, thus I learn to learn and thrive
-              the be the best learner in the room at any given time.
-            </p>
+            <p>80% of studying and 20% of writing code.</p>
           </div>
         </div>
       </div>
