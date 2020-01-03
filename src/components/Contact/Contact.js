@@ -17,7 +17,7 @@ const Contact = () => {
           />
           <div className='form-name'>Email</div>
           <input
-            placeholder=' Email@exmaple.com'
+            placeholder=' email@example.com'
             type='email'
             className='form-control'
             name='email'
@@ -25,13 +25,13 @@ const Contact = () => {
           />
           <div className='form-name'>Subject</div>
           <input
-            placeholder=' Hello!'
+            placeholder=' Hello'
             type='text'
             className='form-control'
             name='subject'
           />
           <textarea
-            placeholder=' I really like your website!...'
+            placeholder=''
             name='message'
             className='form-control'
             rows='10'></textarea>

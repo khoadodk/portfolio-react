@@ -1,6 +1,7 @@
 import React from 'react';
 import './Skills.scss';
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNode } from 'react-icons/fa';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNode, FaAws } from 'react-icons/fa';
+import { DiMongodb } from 'react-icons/di';
 
 const Skills = () => {
   return (
@@ -35,9 +36,12 @@ const Skills = () => {
       <div className='skills-icons'>
         <FaHtml5 className='icon' title='HTML5'></FaHtml5>
         <FaCss3 className='icon' title='CSS3' />
-        <FaJs className='icon' title='Javascript' />
-        <FaReact className='icon' title='ReactJS' />
-        <FaNode className='icon' title='NodeJS' />
+        <FaJs className='icon' title='JavaScript' />
+        <FaReact className='icon' title='React.js' />
+        <FaNode className='icon' title='Node.js' />
+
+        <DiMongodb className='icon' title='MongoDB' />
+        <FaAws className='icon' title='AWS' />
       </div>
       <hr />
     </section>

@@ -8,6 +8,7 @@ class Hero extends Component {
   render() {
     const strings = [
       "I'm a Full Stack Front-End Focused Developer",
+      'specialize in MERN stack',
       'A self-taught programmer with BioChem background',
       'Graduated from Wake Tech Coding Bootcamp 2019',
       'I currently exploring the back-end side',

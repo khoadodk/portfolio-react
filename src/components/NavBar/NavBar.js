@@ -22,7 +22,7 @@ class NavBar extends Component {
             <a href='#projects'>Projects</a>
             <a href='#contact'>Contact Me</a>
             <a
-              href='https://www.dropbox.com/s/0s2ymuvqw08m7bj/Resume-10-30.docx?dl=0'
+              href='https://www.dropbox.com/s/pnmemqamvecwpxq/Resume-01-03-20.docx?dl=0'
               target='_blank'
               rel='noopener noreferrer'>
               Resume
@@ -45,7 +45,7 @@ class NavBar extends Component {
               Contact Me
             </a>
             <a
-              href='https://www.dropbox.com/s/0s2ymuvqw08m7bj/Resume-10-30.docx?dl=0'
+              href='https://www.dropbox.com/s/pnmemqamvecwpxq/Resume-01-03-20.docx?dl=0'
               target='_blank'
               rel='noopener noreferrer'>
               Resume
