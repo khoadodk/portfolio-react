@@ -5,9 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 function Footer() {
   return (
     <div id='footer'>
-      <p className='text-title'>
-        Created By Khoa Do {new Date().getFullYear()}
-      </p>
+      <p className='text-title'>Khoa Do &copy; 2019</p>
       <div className='code-link'>
         <a
           href='https://github.com/khoadodk/portfolio-react'
