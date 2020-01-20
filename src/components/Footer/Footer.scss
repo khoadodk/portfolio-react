@@ -1,19 +1,20 @@
-#footer{
-    font-weight: bolder;
-    padding: 10px;
-    text-align: center;
-    .text-title{
-        margin: 0;
+#footer {
+  background-color: var(--mainBlack);
+  font-weight: bolder;
+  padding: 10px;
+  text-align: center;
+  color: var(--mainWhite);
+  .text-title {
+    margin: 0;
+  }
+  .code-link {
+    padding-top: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: var(--mainWhite);
+    &:hover {
+      color: var(--primaryColor);
     }
-    .code-link{
-        padding-top: 5px;
-    }
-    a{
-        text-decoration: none;
-        color: var(--mainBlack);
-      
-        &:hover{
-            color: var(--primaryColor);
-      }
-    }
+  }
 }

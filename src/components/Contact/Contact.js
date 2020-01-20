@@ -9,7 +9,7 @@ const Contact = () => {
         <form action='https://formspree.io/khoado.dk@gmail.com' method='POST'>
           <div className='form-name'>Name</div>
           <input
-            placeholder='John Doe'
+            placeholder='Full name'
             type='text'
             className='form-control'
             name='firstName'
@@ -17,7 +17,7 @@ const Contact = () => {
           />
           <div className='form-name'>Email</div>
           <input
-            placeholder='email@example.com'
+            placeholder='Example@email.com'
             type='email'
             className='form-control'
             name='email'
@@ -25,7 +25,7 @@ const Contact = () => {
           />
           <div className='form-name'>Subject</div>
           <input
-            placeholder='Hello'
+            placeholder='Hi Khoa!'
             type='text'
             className='form-control'
             name='subject'

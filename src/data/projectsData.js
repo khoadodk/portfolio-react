@@ -1,6 +1,20 @@
 const projects = [
   {
-    id: 14,
+    id: 16,
+    title: 'MERN Boilerplate',
+    img: 'boilerplateMERN.png',
+    description:
+      'This app has login/register system with Google and FaceBook, forgot/reset password and account activation via email.',
+    type: [
+      '../../images/icons/react.svg',
+      '../../images/icons/node.svg',
+      '../../images/icons/database.svg'
+    ],
+    github: 'https://github.com/khoadodk/boilerplate-mern-stack',
+    demo: 'https://obscure-cove-86522.herokuapp.com/'
+  },
+  {
+    id: 15,
     title: 'Party',
     img: 'party.png',
     description:
@@ -103,16 +117,16 @@ const projects = [
     type: ['../../images/icons/node.svg'],
     github: 'https://github.com/khoadodk/CRUD-hbs',
     demo: 'https://agile-bastion-41233.herokuapp.com/employee'
-  },
-  {
-    id: 8,
-    title: 'electrik store',
-    img: 'electrikstore.png',
-    description: 'A Simple E-Commerce Store that lets user filter categories',
-    type: ['../../images/icons/react.svg'],
-    github: 'https://github.com/khoadodk/tech-store-react',
-    demo: 'https://techstore-react.netlify.com'
   }
+  // {
+  //   id: 8,
+  //   title: 'electrik store',
+  //   img: 'electrikstore.png',
+  //   description: 'A Simple E-Commerce Store that lets user filter categories',
+  //   type: ['../../images/icons/react.svg'],
+  //   github: 'https://github.com/khoadodk/tech-store-react',
+  //   demo: 'https://techstore-react.netlify.com'
+  // }
   // {
   //     id: 1,
   //     title: "text to speech",
