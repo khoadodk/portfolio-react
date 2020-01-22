@@ -23,9 +23,9 @@
       h1 {
         margin: 0;
         font-size: 50px;
-        // -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
-        // -webkit-mask-size: 200%;
-        // animation: shine 2s infinite;
+        @media (max-width: 414px) {
+          font-size: 30px;
+        }
       }
     }
     .typed {
@@ -36,6 +36,9 @@
       font-size: 25px;
       font-weight: bold;
       padding: 10vh 0;
+      @media (max-width: 414px) {
+        font-size: 18px;
+      }
     }
     .social-icons {
       animation: rightIn 1s ease-out 0.5s;
@@ -48,6 +51,9 @@
         font-size: 50px;
         padding: 0 30px;
         text-decoration: none;
+        @media (max-width: 414px) {
+          font-size: 40px;
+        }
       }
       a:hover {
         color: var(--primaryColor);

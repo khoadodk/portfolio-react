@@ -1,2 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## Portfolio website 
+# Portfolio website
+
+This is my website to showcase my personal projects

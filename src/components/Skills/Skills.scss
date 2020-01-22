@@ -1,16 +1,28 @@
 #skills {
-  // background: var(--mainGrey);
   text-align: center;
   width: 100vw;
+
   .heading {
     font-size: 20px;
+    position: relative !important;
     h1 {
       margin: 0;
       padding: 20px 0;
     }
+
     .card-container {
       display: flex;
       justify-content: space-around;
+      padding: 20px 0;
+      @media (max-width: 414px) {
+        display: block !important;
+        position: relative !important;
+        left: 23% !important;
+        .card {
+          width: 200px !important;
+          margin: 10px 0 !important;
+        }
+      }
       .card {
         background-color: var(--mainGrey);
         padding: 10px;
@@ -19,22 +31,16 @@
           box-shadow: 5px 5px 2px var(--darkGrey);
           transform: scale(1.05);
         }
+        .icon-img {
+          font-size: 40px;
+        }
         h4 {
+          margin-top: 5px;
           text-transform: capitalize;
         }
         p {
           font-size: 17px;
           font-weight: 300;
-        }
-      }
-      @media (max-width: 414px) {
-        .card {
-          h4 {
-            font-size: 13px;
-          }
-          p {
-            font-size: 10px;
-          }
         }
       }
     }
@@ -43,6 +49,9 @@
   .quote {
     font-size: 20px;
     padding-top: 20px;
+    @media (max-width: 414px) {
+      font-size: 14px;
+    }
   }
 
   .skills-icons {

@@ -8,12 +8,11 @@ class Hero extends Component {
   render() {
     const strings = [
       "I'm a Full Stack Front-End Focused Developer",
-      'specialize in MERN stack',
-      'A self-taught programmer with BioChem background',
+      'Specialize in MERN stack',
       'Graduated from Wake Tech Coding Bootcamp 2019',
-      'I currently exploring the back-end side',
+      'I am currently learning GraphQL and Django',
       'I pass my free time at the gym, reading books, and listening to SWE podcasts',
-      'Scroll down to see my skills and projects'
+      'Scroll down to read more about me'
     ];
     const params = {
       particles: {
@@ -43,37 +42,40 @@ class Hero extends Component {
     };
 
     return (
-      <section id='hero'>
-        <div className='hero'>
-          <Particles params={params} className='particle' />
-          <div className='hero-container'>
-            <div className='text-title'>
+      <section id="hero">
+        <div className="hero">
+          <Particles params={params} className="particle" />
+          <div className="hero-container">
+            <div className="text-title">
               <h1>I'M KHOA DO</h1>
-              <span>Give me a problem, I give you many solutions.</span>
             </div>
             <Typed
-              className='typed'
+              className="typed"
               strings={strings}
               typeSpeed={40}
               backSpeed={50}
-              loop></Typed>
-            <div className='social-icons'>
+              loop
+            ></Typed>
+            <div className="social-icons">
               <a
-                href='https://github.com/khoadodk'
-                target='_blank'
-                rel='noopener noreferrer'>
+                href="https://github.com/khoadodk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaGithub />
               </a>
               <a
-                href='https://www.linkedin.com/in/khoa-do-a80148188/'
-                target='_blank'
-                rel='noopener noreferrer'>
+                href="https://www.linkedin.com/in/khoa-do-a80148188/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaLinkedin />
               </a>
               <a
-                href='https://www.facebook.com/dkyanh'
-                target='_blank'
-                rel='noopener noreferrer'>
+                href="https://www.facebook.com/dkyanh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaFacebook />
               </a>
             </div>

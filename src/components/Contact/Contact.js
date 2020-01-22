@@ -3,40 +3,34 @@ import './Contact.scss';
 
 const Contact = () => {
   return (
-    <section id='contact'>
+    <section id="contact">
       <h1>CONTACT ME</h1>
-      <div className='form'>
-        <form action='https://formspree.io/khoado.dk@gmail.com' method='POST'>
-          <div className='form-name'>Name</div>
+      <hr />
+      <p className="contact-subtitle">
+        Let's work together <i className="fa fa-arrow-down"></i>
+      </p>
+      <div className="form">
+        <form action="https://formspree.io/khoado.dk@gmail.com" method="POST">
+          <div className="form-name">What do you call yourself?</div>
           <input
-            placeholder='Full name'
-            type='text'
-            className='form-control'
-            name='firstName'
+            type="text"
+            className="form-control"
+            name="firstName"
             required
           />
-          <div className='form-name'>Email</div>
-          <input
-            placeholder='Example@email.com'
-            type='email'
-            className='form-control'
-            name='email'
-            required
-          />
-          <div className='form-name'>Subject</div>
-          <input
-            placeholder='Hi Khoa!'
-            type='text'
-            className='form-control'
-            name='subject'
-          />
+          <div className="form-name">Which email should I contact you?</div>
+          <input type="email" className="form-control" name="email" required />
+          <div className="form-name">How can I help you?</div>
+          <input type="text" className="form-control" name="subject" />
+          <div className="form-name">Your Message</div>
           <textarea
-            placeholder=''
-            name='message'
-            className='form-control'
-            rows='10'></textarea>
-          <div className='form-group'>
-            <input className='submit-btn' type='submit' value='Send' />
+            placeholder=""
+            name="message"
+            className="form-control"
+            rows="10"
+          ></textarea>
+          <div className="form-group">
+            <input className="submit-btn" type="submit" value="Send" />
           </div>
         </form>
       </div>

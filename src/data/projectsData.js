@@ -4,7 +4,7 @@ const projects = [
     title: 'MERN Boilerplate',
     img: 'boilerplateMERN.png',
     description:
-      'This app has login/register system with Google and FaceBook, forgot/reset password and account activation via email.',
+      'Login/register system with Google and Facebook, forgot/reset password and account activation.',
     type: [
       '../../images/icons/react.svg',
       '../../images/icons/node.svg',
@@ -15,10 +15,9 @@ const projects = [
   },
   {
     id: 15,
-    title: 'Party',
+    title: 'Party Booking',
     img: 'party.png',
-    description:
-      'This MERN stack app allows user to keep track the invited friends',
+    description: 'Having a party? Use this app to book your friends.',
     type: [
       '../../images/icons/react.svg',
       '../../images/icons/node.svg',
@@ -27,16 +26,16 @@ const projects = [
     github: 'https://github.com/khoadodk/party-MERN',
     demo: 'https://morning-eyrie-88446.herokuapp.com/'
   },
-  {
-    id: 14,
-    title: 'Medium Clone',
-    img: 'mediumclone.png',
-    description:
-      'This project is made to understand more about React Hooks API',
-    type: ['../../images/icons/react.svg'],
-    github: 'https://github.com/khoadodk/medium-clone-hooks',
-    demo: 'https://khoado-mediumclone.netlify.com'
-  },
+  // {
+  //   id: 14,
+  //   title: 'Medium Clone',
+  //   img: 'mediumclone.png',
+  //   description:
+  //     'This project is made to understand more about React Hooks API',
+  //   type: ['../../images/icons/react.svg'],
+  //   github: 'https://github.com/khoadodk/medium-clone-hooks',
+  //   demo: 'https://khoado-mediumclone.netlify.com'
+  // },
   {
     id: 13,
     title: 'Kruise',
@@ -107,17 +106,17 @@ const projects = [
     type: ['../../images/icons/react.svg'],
     github: 'https://github.com/khoadodk/budget-calculator',
     demo: 'https://budgetcal.netlify.com/'
-  },
-  {
-    id: 7,
-    title: 'employee info',
-    img: 'CRUD.png',
-    description:
-      'A CRUD app that lets user add, view, edit or delete the employee info',
-    type: ['../../images/icons/node.svg'],
-    github: 'https://github.com/khoadodk/CRUD-hbs',
-    demo: 'https://agile-bastion-41233.herokuapp.com/employee'
   }
+  // {
+  //   id: 7,
+  //   title: 'employee info',
+  //   img: 'CRUD.png',
+  //   description:
+  //     'A CRUD app that lets user add, view, edit or delete the employee info',
+  //   type: ['../../images/icons/node.svg'],
+  //   github: 'https://github.com/khoadodk/CRUD-hbs',
+  //   demo: 'https://agile-bastion-41233.herokuapp.com/employee'
+  // }
   // {
   //   id: 8,
   //   title: 'electrik store',
