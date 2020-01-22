@@ -15,9 +15,10 @@
       justify-content: space-around;
       padding: 20px 0;
       @media (max-width: 414px) {
-        display: block !important;
+        display: flex !important;
         position: relative !important;
-        left: 23% !important;
+        flex-direction: column;
+        align-items: center;
         .card {
           width: 200px !important;
           margin: 10px 0 !important;
