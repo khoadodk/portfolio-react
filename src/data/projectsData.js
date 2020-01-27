@@ -1,5 +1,19 @@
 const projects = [
   {
+    id: 17,
+    title: 'Book Store',
+    img: 'ecommerce-mern.png',
+    description:
+      'A production level eCommerce store with tons of features. Click on Demo for details.',
+    type: [
+      '../../images/icons/react.svg',
+      '../../images/icons/node.svg',
+      '../../images/icons/database.svg'
+    ],
+    github: 'https://github.com/khoadodk/ECommerce-MERN',
+    demo: 'https://aqueous-tor-25407.herokuapp.com/about'
+  },
+  {
     id: 16,
     title: 'MERN Boilerplate',
     img: 'boilerplateMERN.png',
@@ -45,20 +59,20 @@ const projects = [
     github: 'https://github.com/khoadodk/kruise',
     demo: 'https://khoado-kruise.netlify.com'
   },
-  {
-    id: 12,
-    title: 'Social Forum',
-    img: 'socialforum.png',
-    description:
-      'User can make a post, follow and live chat with other users in this full stack Javascript app.',
-    type: [
-      '../../images/icons/js.svg',
-      '../../images/icons/node.svg',
-      '../../images/icons/database.svg'
-    ],
-    github: 'https://github.com/khoadodk/jsapp-fullstack',
-    demo: 'https://socialkhoado.herokuapp.com/'
-  },
+  // {
+  //   id: 12,
+  //   title: 'Social Forum',
+  //   img: 'socialforum.png',
+  //   description:
+  //     'User can make a post, follow and live chat with other users in this full stack Javascript app.',
+  //   type: [
+  //     '../../images/icons/js.svg',
+  //     '../../images/icons/node.svg',
+  //     '../../images/icons/database.svg'
+  //   ],
+  //   github: 'https://github.com/khoadodk/jsapp-fullstack',
+  //   demo: 'https://socialkhoado.herokuapp.com/'
+  // },
   // {
   //   id: 11,
   //   title: 'eSurvey',
@@ -82,7 +96,7 @@ const projects = [
     type: ['../../images/icons/react.svg', '../../images/icons/node.svg'],
     github: 'https://github.com/khoadodk/chat-app',
     demo: 'https://chat-khoado.netlify.com/'
-  },
+  }
   // {
   //   id: 9,
   //   title: 'K Clothing',
@@ -98,15 +112,15 @@ const projects = [
   //   github: 'https://github.com/khoadodk/k-clothing',
   //   demo: 'https://kclothing.netlify.com/'
   // },
-  {
-    id: 6,
-    title: 'budget calculator',
-    img: 'budgetcal.png',
-    description: 'Users can edit, add, or delete the expense',
-    type: ['../../images/icons/react.svg'],
-    github: 'https://github.com/khoadodk/budget-calculator',
-    demo: 'https://budgetcal.netlify.com/'
-  }
+  // {
+  //   id: 6,
+  //   title: 'budget calculator',
+  //   img: 'budgetcal.png',
+  //   description: 'Users can edit, add, or delete the expense',
+  //   type: ['../../images/icons/react.svg'],
+  //   github: 'https://github.com/khoadodk/budget-calculator',
+  //   demo: 'https://budgetcal.netlify.com/'
+  // }
   // {
   //   id: 7,
   //   title: 'employee info',
