@@ -10,7 +10,7 @@ const Skills = () => {
         <h1>PRINCIPLES & SKILLS</h1>
 
         <div className="card-container">
-          <div className="card">
+          <div className="card" data-aos="slide-right">
             <div className="icon-img">
               <i className="fa fa-code" style={{ color: '#0288d1' }}></i>
             </div>
@@ -27,7 +27,7 @@ const Skills = () => {
             <h4>communication</h4>
             <p>Good communication beats thousands of lines of good code</p>
           </div>
-          <div className="card">
+          <div className="card" data-aos="slide-left">
             <div className="icon-img">
               <i className="fa fa-book" style={{ color: '#d1ae02' }}></i>
             </div>
@@ -43,7 +43,7 @@ const Skills = () => {
           creative ways --- Robert Greene
         </q>
       </div>
-      <div className="skills-icons">
+      <div className="skills-icons" data-aos="fade-down">
         <FaHtml5 className="icon" title="HTML5"></FaHtml5>
         <FaCss3 className="icon" title="CSS3" />
         <FaJs className="icon" title="JavaScript" />
