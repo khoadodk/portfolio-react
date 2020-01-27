@@ -3,7 +3,7 @@ import './Contact.scss';
 
 const Contact = () => {
   return (
-    <section id="contact" data-aos="zoom-in" data-aos-delay="1000">
+    <section id="contact" data-aos="zoom-in" data-aos-delay="300">
       <h1>CONTACT ME</h1>
       <hr />
       <p className="contact-subtitle">

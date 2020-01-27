@@ -11,7 +11,12 @@ const Projects = ({ projects }) => {
             <img key={index} src={img} alt="project type" />
           ));
           return (
-            <div className="container" key={project.id} data-aos="flip-left">
+            <div
+              className="container"
+              key={project.id}
+              data-aos="flip-left"
+              data-aos-delay="300"
+            >
               <h2>{project.title}</h2>
               <div className="image-type">{imageType}</div>
               <div className="img-container">
