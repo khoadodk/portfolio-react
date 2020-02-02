@@ -54,10 +54,19 @@ const projects = [
     id: 13,
     title: 'Kruise',
     img: 'kruise.png',
-    description: 'A UX/UI project for a commercial cruise booking website',
+    description: 'A UX/UI project for a commercial cruise booking website.',
     type: ['../../images/icons/sass.svg'],
     github: 'https://github.com/khoadodk/kruise',
     demo: 'https://khoado-kruise.netlify.com'
+  },
+  {
+    id: 12,
+    title: 'Clothes Store',
+    img: 'clothesstore.png',
+    description: 'The landing page of a retail store.',
+    type: ['../../images/icons/sass.svg'],
+    github: 'https://github.com/khoadodk/clothesStore',
+    demo: 'https://clothesstore-khoado.netlify.com/'
   },
   // {
   //   id: 12,
