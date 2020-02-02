@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Typed from 'react-typed';
-import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaCode } from 'react-icons/fa';
 import './Hero.scss';
 import Particles from 'react-particles-js';
 
@@ -72,11 +72,11 @@ class Hero extends Component {
                 <FaLinkedin />
               </a>
               <a
-                href="https://www.facebook.com/dkyanh"
+                href="https://www.codewars.com/users/khoadodk"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebook />
+                <FaCode />
               </a>
             </div>
           </div>
