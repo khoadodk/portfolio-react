@@ -27,6 +27,15 @@
           font-size: 40px;
         }
       }
+      h4 {
+        margin: 30px;
+        color: var(--mainGrey);
+        text-align: center;
+        line-height: 32px;
+        @media (max-width: 414px) {
+          font-size: 15px;
+        }
+      }
     }
     .typed {
       animation: leftIn 1s ease-out 0.5s;

@@ -11,9 +11,6 @@ body {
   --mainWhite: #fff;
   --mainBlack: #222;
 }
-.text-title {
-  text-transform: capitalize;
-}
 
 @keyframes leftIn {
   0% {

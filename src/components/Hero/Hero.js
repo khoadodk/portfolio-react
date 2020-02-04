@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import { FaGithub, FaLinkedin, FaCode } from 'react-icons/fa';
 import './Hero.scss';
 import Particles from 'react-particles-js';
 
 class Hero extends Component {
   render() {
-    const strings = [
-      "I'm a Full Stack Front-End Focused Developer",
-      'Specialize in MERN stack',
-      'Graduated from Wake Tech Coding Bootcamp 2019',
-      'I am currently learning GraphQL and Django',
-      'I pass my free time at the gym, reading books, and listening to SWE podcasts',
-      'Scroll down to read more about me'
-    ];
+    // const strings = [
+    //   "I'm a Full Stack Front-End Focused Developer",
+    //   'Specialize in MERN stack',
+    //   'Graduated from Wake Tech Coding Bootcamp 2019',
+    //   'I am currently learning GraphQL and Django',
+    //   'I pass my free time at the gym, reading books, and listening to SWE podcasts',
+    //   'Scroll down to read more about me'
+    // ];
     const params = {
       particles: {
         line_linked: {
@@ -48,14 +48,22 @@ class Hero extends Component {
           <div className="hero-container">
             <div className="text-title">
               <h1>I'M KHOA DO</h1>
+              <h4>
+                I was working numerous jobs from retail stores to restaurants,
+                playing computer games every night, not knowing where I was
+                going in life... Then I started this journey 2 years go and
+                haven't looked back. I code everyday and crave to learn new
+                technologies .
+              </h4>
             </div>
-            <Typed
+            {/* <Typed
               className="typed"
               strings={strings}
               typeSpeed={40}
               backSpeed={50}
               loop
-            ></Typed>
+            ></Typed> */}
+
             <div className="social-icons">
               <a
                 href="https://github.com/khoadodk"
