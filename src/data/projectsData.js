@@ -11,7 +11,7 @@ const projects = [
       '../../images/icons/database.svg'
     ],
     github: 'https://github.com/khoadodk/ECommerce-MERN',
-    demo: 'https://aqueous-tor-25407.herokuapp.com/about'
+    demo: 'https://bookstore-khoado.herokuapp.com/about'
   },
   {
     id: 16,
@@ -38,7 +38,7 @@ const projects = [
       '../../images/icons/database.svg'
     ],
     github: 'https://github.com/khoadodk/party-MERN',
-    demo: 'https://morning-eyrie-88446.herokuapp.com/'
+    demo: 'https://party-khoado.herokuapp.com/'
   },
   // {
   //   id: 14,
