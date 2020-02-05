@@ -22,18 +22,19 @@
       color: var(--primaryColor);
       h1 {
         margin: 0;
-        font-size: 50px;
+        font-size: 60px;
         @media (max-width: 414px) {
           font-size: 40px;
         }
       }
-      h4 {
-        margin: 30px;
+      p {
+        margin: 60px;
         color: var(--mainGrey);
+        font-size: 40px;
         text-align: center;
-        line-height: 32px;
+        line-height: 40px;
         @media (max-width: 414px) {
-          font-size: 15px;
+          font-size: 30px;
         }
       }
     }

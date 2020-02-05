@@ -48,13 +48,7 @@ class Hero extends Component {
           <div className="hero-container">
             <div className="text-title">
               <h1>I'M KHOA DO</h1>
-              <h4>
-                I was working numerous jobs from retail stores to restaurants,
-                playing computer games every night, not knowing where I was
-                going in life... Then I started this journey 2 years go and
-                haven't looked back. I code everyday and crave to learn new
-                technologies .
-              </h4>
+              <p>I'm a developer who enjoys testing everything.</p>
             </div>
             {/* <Typed
               className="typed"

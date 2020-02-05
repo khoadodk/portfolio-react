@@ -25,9 +25,12 @@
   }
   .image-type {
     display: flex;
-    height: 35px;
+    padding: 5px 0;
     justify-content: space-around;
-    padding: 10px 0;
+    img {
+      height: 35px;
+      width: 35px;
+    }
   }
   .img-container {
     display: flex;

@@ -1,6 +1,7 @@
 #skills {
   text-align: center;
   width: 100vw;
+  background-color: var(--mainGrey);
 
   .heading {
     font-size: 20px;
@@ -9,56 +10,18 @@
       margin: 0;
       padding: 20px 0;
     }
-
-    .card-container {
-      display: flex;
-      justify-content: space-around;
-      padding: 20px 0;
+    p {
+      padding: 0 30px;
+      line-height: 30px;
       @media (max-width: 414px) {
-        display: flex !important;
-        position: relative !important;
-        flex-direction: column;
-        align-items: center;
-        .card {
-          width: 200px !important;
-          margin: 10px 0 !important;
-        }
-      }
-      .card {
-        background-color: var(--mainGrey);
-        padding: 10px;
-        width: 23%;
-        &:hover {
-          box-shadow: 5px 5px 2px var(--darkGrey);
-          transform: scale(1.05);
-        }
-        .icon-img {
-          font-size: 40px;
-        }
-        h4 {
-          margin-top: 5px;
-          text-transform: capitalize;
-        }
-        p {
-          font-size: 17px;
-          font-weight: 300;
-        }
+        font-size: 15px;
       }
     }
   }
-
-  .quote {
-    font-size: 20px;
-    padding-top: 20px;
-    @media (max-width: 414px) {
-      font-size: 14px;
-    }
-  }
-
   .skills-icons {
     text-align: center;
     .icon {
-      font-size: 40px;
+      font-size: 50px;
       padding: 20px 30px;
       &:hover {
         transform: scale(1.2);
@@ -67,8 +30,5 @@
     .tooltip {
       visibility: hidden;
     }
-  }
-  hr {
-    width: 50%;
   }
 }
