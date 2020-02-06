@@ -1,3 +1,3 @@
 # Portfolio website
 
-This is my website to showcase my personal projects
+This is the website to showcase my personal projects
