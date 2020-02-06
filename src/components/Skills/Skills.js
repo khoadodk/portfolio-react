@@ -16,7 +16,7 @@ const Skills = () => {
     <section id="skills">
       <div className="heading">
         <h1>ABOUT ME</h1>
-        <p>
+        <p data-aos="zoom-in">
           I was working numerous jobs from retail stores to restaurants, playing
           computer games every night, not knowing where I was going in life...
           Then I started this journey 2 years ago and haven't looked back. I
@@ -25,7 +25,7 @@ const Skills = () => {
       </div>
 
       <div className="heading">
-        <h1>SKILLS</h1>
+        <h1>MY SKILLS</h1>
       </div>
       <div className="skills-icons" data-aos="fade-down">
         <FaHtml5 className="icon" title="HTML5"></FaHtml5>
