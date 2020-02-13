@@ -19,8 +19,9 @@ const Skills = () => {
         <p data-aos="zoom-in">
           I was working numerous jobs from retail stores to restaurants, playing
           computer games every night, not knowing where I was going in life...
-          Then I started this journey 2 years ago and haven't looked back. I
-          code everyday and crave to learn new technologies.
+          Then I started this coding journey 2 years ago and haven't looked
+          back. I code everyday and try to add more technologies to my stack
+          below.
         </p>
       </div>
 

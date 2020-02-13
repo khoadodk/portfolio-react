@@ -1,5 +1,18 @@
 const projects = [
   {
+    id: 18,
+    title: 'Blog',
+    img: 'blog.png',
+    description: 'Programming blog built with Next.js for SEO',
+    type: [
+      '../../images/icons/react.svg',
+      '../../images/icons/node.svg',
+      '../../images/icons/database.svg'
+    ],
+    github: 'https://github.com/khoadodk/blog',
+    demo: 'https://blog-khoado.site'
+  },
+  {
     id: 17,
     title: 'Book Store',
     img: 'ecommerce-mern.png',
