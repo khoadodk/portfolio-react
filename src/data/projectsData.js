@@ -1,6 +1,19 @@
 const projects = [
   {
     id: 18,
+    title: 'Furniture',
+    img: 'furniture-store.png',
+    description: 'An eCommerce store built with Next.js and Semantic UI',
+    type: [
+      '../../images/icons/react.svg',
+      '../../images/icons/node.svg',
+      '../../images/icons/database.svg'
+    ],
+    github: 'https://github.com/khoadodk/furniture-store',
+    demo: 'https://furniture-store.now.sh'
+  },
+  {
+    id: 18,
     title: 'Blog',
     img: 'blog.png',
     description: 'Programming blog built with Next.js for SEO',
