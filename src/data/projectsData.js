@@ -1,5 +1,19 @@
 const projects = [
   {
+    id: 19,
+    title: 'eLearn',
+    img: 'elearn.png',
+    description: 'An online Tutorials and Courses sharing platform',
+    type: [
+      '../../images/icons/react.svg',
+      '../../images/icons/node.svg',
+      '../../images/icons/database.svg',
+      '../../images/icons/aws.svg'
+    ],
+    github: 'https://github.com/khoadodk/multi-users-app',
+    demo: 'http://khoado.site'
+  },
+  {
     id: 18,
     title: 'Furniture',
     img: 'furniture-store.png',
@@ -12,19 +26,19 @@ const projects = [
     github: 'https://github.com/khoadodk/furniture-store',
     demo: 'https://furniture-store.now.sh'
   },
-  {
-    id: 18,
-    title: 'Blog',
-    img: 'blog.png',
-    description: 'Programming blog built with Next.js for SEO',
-    type: [
-      '../../images/icons/react.svg',
-      '../../images/icons/node.svg',
-      '../../images/icons/database.svg'
-    ],
-    github: 'https://github.com/khoadodk/blog',
-    demo: 'https://blog-khoado.site'
-  },
+  // {
+  //   id: 18,
+  //   title: 'Blog',
+  //   img: 'blog.png',
+  //   description: 'Programming blog built with Next.js for SEO',
+  //   type: [
+  //     '../../images/icons/react.svg',
+  //     '../../images/icons/node.svg',
+  //     '../../images/icons/database.svg'
+  //   ],
+  //   github: 'https://github.com/khoadodk/blog',
+  //   demo: 'https://blog-khoado.site'
+  // },
   {
     id: 17,
     title: 'Book Store',
