@@ -26,19 +26,20 @@ const projects = [
     github: 'https://github.com/khoadodk/furniture-store',
     demo: 'https://furniture-store.now.sh'
   },
-  // {
-  //   id: 18,
-  //   title: 'Blog',
-  //   img: 'blog.png',
-  //   description: 'Programming blog built with Next.js for SEO',
-  //   type: [
-  //     '../../images/icons/react.svg',
-  //     '../../images/icons/node.svg',
-  //     '../../images/icons/database.svg'
-  //   ],
-  //   github: 'https://github.com/khoadodk/blog',
-  //   demo: 'https://blog-khoado.site'
-  // },
+  {
+    id: 1000,
+    title: 'Blog',
+    img: 'blog.png',
+    description: 'Programming blog built with Next.js for SEO',
+    type: [
+      '../../images/icons/react.svg',
+      '../../images/icons/node.svg',
+      '../../images/icons/database.svg',
+      '../../images/icons/aws.svg'
+    ],
+    github: 'https://github.com/khoadodk/blog',
+    demo: 'http://ec2-54-244-56-122.us-west-2.compute.amazonaws.com'
+  },
   {
     id: 17,
     title: 'Book Store',
@@ -107,7 +108,7 @@ const projects = [
     type: ['../../images/icons/sass.svg'],
     github: 'https://github.com/khoadodk/clothesStore',
     demo: 'https://clothesstore-khoado.netlify.com/'
-  },
+  }
   // {
   //   id: 12,
   //   title: 'Social Forum',
@@ -137,16 +138,16 @@ const projects = [
   //   github: 'https://github.com/khoadodk/esurvey',
   //   demo: 'https://pure-harbor-76603.herokuapp.com/'
   // },
-  {
-    id: 10,
-    title: 'Live Chat',
-    img: 'LiveChat.png',
-    description: 'Users can chat with real time in the same room',
-    type: ['../../images/icons/react.svg', '../../images/icons/node.svg'],
-    github: 'https://github.com/khoadodk/chat-app',
-    demo: 'https://chat-khoado.netlify.com/'
-  }
   // {
+  //   id: 10,
+  //   title: 'Live Chat',
+  //   img: 'LiveChat.png',
+  //   description: 'Users can chat with real time in the same room',
+  //   type: ['../../images/icons/react.svg', '../../images/icons/node.svg'],
+  //   github: 'https://github.com/khoadodk/chat-app',
+  //   demo: 'https://chat-khoado.netlify.com/'
+  // }
+  // // {
   //   id: 9,
   //   title: 'K Clothing',
   //   img: 'kclothing.png',
