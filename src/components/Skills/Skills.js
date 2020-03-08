@@ -7,7 +7,8 @@ import {
   FaReact,
   FaNode,
   FaBootstrap,
-  FaSass
+  FaSass,
+  FaAws
 } from 'react-icons/fa';
 import { DiMongodb } from 'react-icons/di';
 
@@ -37,6 +38,7 @@ const Skills = () => {
         <FaReact className="icon" title="React.js" />
         <FaNode className="icon" title="Node.js" />
         <DiMongodb className="icon" title="MongoDB" />
+        <FaAws className="icon" title="Amazon Web Services" />
       </div>
     </section>
   );
