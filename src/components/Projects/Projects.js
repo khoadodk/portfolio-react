@@ -1,12 +1,12 @@
-import React from 'react';
-import './Projects.scss';
+import React from "react";
+import "./Projects.css";
 
 const Projects = ({ projects }) => {
   return (
     <section id="projects">
       <h1>PROJECTS</h1>
       <div className="card">
-        {projects.map(project => {
+        {projects.map((project) => {
           let imageType = project.type.map((img, index) => (
             <img key={index} src={img} alt="project type" />
           ));

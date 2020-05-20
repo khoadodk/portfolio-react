@@ -1,0 +1,71 @@
+#contact {
+  background-color: var(--mainGrey);
+  -webkit-clip-path: polygon(50% 8%, 100% 0, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(50% 8%, 100% 0, 100% 100%, 0 100%, 0 0);
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#contact hr {
+  width: 50%;
+}
+
+#contact .contact-subtitle {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#contact .contact-subtitle i {
+  color: var(--primaryColor);
+}
+
+#contact h1 {
+  padding: 10px;
+  margin: 0;
+}
+
+#contact form .form-name {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#contact form input {
+  border: 1px solid black;
+}
+
+#contact form .form-control {
+  font-size: 15px;
+  padding: 10px 0;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  #contact form .form-control {
+    width: 70%;
+  }
+}
+
+#contact form textarea {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+#contact form .submit-btn {
+  background-color: var(--mainWhite);
+  font-weight: bold;
+  margin: 15px 0 20px 0;
+  padding: 5px;
+  text-transform: uppercase;
+  width: 15%;
+}
+
+#contact form .submit-btn:hover {
+  background-color: var(--primaryColor);
+  -webkit-box-shadow: 2px 2px 2px var(--darkGrey);
+          box-shadow: 2px 2px 2px var(--darkGrey);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+/*# sourceMappingURL=Contact.css.map */

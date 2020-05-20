@@ -1,0 +1,45 @@
+#skills {
+  text-align: center;
+  width: 100vw;
+  background-color: var(--mainGrey);
+}
+
+#skills .heading {
+  font-size: 20px;
+  position: relative !important;
+}
+
+#skills .heading h1 {
+  margin: 0;
+  padding: 20px 0;
+}
+
+#skills .heading p {
+  padding: 0 30px;
+  line-height: 30px;
+}
+
+@media (max-width: 414px) {
+  #skills .heading p {
+    font-size: 15px;
+  }
+}
+
+#skills .skills-icons {
+  text-align: center;
+}
+
+#skills .skills-icons .icon {
+  font-size: 50px;
+  padding: 20px 30px;
+}
+
+#skills .skills-icons .icon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#skills .skills-icons .tooltip {
+  visibility: hidden;
+}
+/*# sourceMappingURL=Skills.css.map */

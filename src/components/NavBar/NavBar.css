@@ -1,0 +1,83 @@
+nav {
+  background-color: var(--mainGrey);
+  opacity: 0.85;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 7px 0;
+  position: -webkit-sticky;
+  position: sticky;
+  text-transform: uppercase;
+  top: 0;
+  overflow: hidden;
+  width: 100vw;
+  z-index: 1000;
+  border-bottom: 1px solid #000;
+}
+
+nav a {
+  color: var(--mainBlack);
+}
+
+nav a:hover {
+  color: var(--primaryColor);
+}
+
+nav .navWide {
+  display: none;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+nav .navWide .dev {
+  float: left;
+  height: 30px;
+  width: 30px;
+  padding-left: 10px;
+}
+
+nav .navWide .dev:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+nav .navWide .wideDiv {
+  text-align: center;
+}
+
+nav .navWide .wideDiv a {
+  display: inline-block;
+  padding: 0 2em;
+  text-decoration: none;
+}
+
+nav .navNarrow {
+  padding-left: 10px;
+}
+
+nav .navNarrow .nav-icon {
+  float: left;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+nav .navNarrow .narrowLinks {
+  display: none;
+}
+
+nav .navNarrow .narrowLinks a {
+  clear: left;
+  display: block;
+  float: left;
+  padding: 0.5em 0;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  nav .navWide {
+    display: block;
+  }
+  nav .navNarrow {
+    display: none;
+  }
+}
+/*# sourceMappingURL=NavBar.css.map */

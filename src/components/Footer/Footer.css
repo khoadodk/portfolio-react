@@ -1,0 +1,25 @@
+#footer {
+  background-color: var(--mainBlack);
+  font-weight: bolder;
+  padding: 10px;
+  text-align: center;
+  color: var(--mainWhite);
+}
+
+#footer .text-title {
+  margin: 0;
+}
+
+#footer .code-link {
+  padding-top: 5px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: var(--mainWhite);
+}
+
+#footer a:hover {
+  color: var(--primaryColor);
+}
+/*# sourceMappingURL=Footer.css.map */

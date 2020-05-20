@@ -1,0 +1,107 @@
+.hero {
+  background-color: var(--mainBlack);
+  height: 70vh;
+  padding-top: 150px;
+  text-align: center;
+  width: 100vw;
+}
+
+.hero .particle {
+  position: absolute;
+  height: 70vh;
+  width: 100vw;
+  z-index: 500;
+}
+
+.hero .hero-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 99999;
+}
+
+.hero .hero-container .text-title {
+  animation: topIn 1s ease-out 0.5s;
+  -webkit-animation: topIn 1s ease-out 0.5s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  color: var(--primaryColor);
+}
+
+.hero .hero-container .text-title h1 {
+  margin: 0;
+  font-size: 60px;
+}
+
+@media (max-width: 414px) {
+  .hero .hero-container .text-title h1 {
+    font-size: 40px;
+  }
+}
+
+.hero .hero-container .text-title p {
+  margin: 60px;
+  color: var(--mainGrey);
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+@media (max-width: 414px) {
+  .hero .hero-container .text-title p {
+    font-size: 30px;
+  }
+}
+
+.hero .hero-container .typed {
+  animation: leftIn 1s ease-out 0.5s;
+  -webkit-animation: leftIn 1s ease-out 0.5s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10vh 0;
+}
+
+@media (max-width: 414px) {
+  .hero .hero-container .typed {
+    font-size: 20px;
+  }
+}
+
+.hero .hero-container .social-icons {
+  animation: rightIn 1s ease-out 0.5s;
+  -webkit-animation: rightIn 1s ease-out 0.5s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  z-index: 1000;
+}
+
+.hero .hero-container .social-icons a {
+  color: white;
+  display: inline-block;
+  font-size: 50px;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+@media (max-width: 414px) {
+  .hero .hero-container .social-icons a {
+    font-size: 40px;
+  }
+}
+
+.hero .hero-container .social-icons a:hover {
+  color: var(--primaryColor);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=Hero.css.map */

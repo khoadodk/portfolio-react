@@ -1,5 +1,5 @@
-import React from 'react';
-import './Skills.scss';
+import React from "react";
+import "./Skills.css";
 import {
   FaHtml5,
   FaCss3,
@@ -8,9 +8,10 @@ import {
   FaNode,
   FaBootstrap,
   FaSass,
-  FaAws
-} from 'react-icons/fa';
-import { DiMongodb } from 'react-icons/di';
+  FaAws,
+} from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+import { GrGatsbyjs, GrGraphQl } from "react-icons/gr";
 
 const Skills = () => {
   return (
@@ -36,6 +37,8 @@ const Skills = () => {
         <FaBootstrap className="icon" title="BootStrap" />
         <FaJs className="icon" title="JavaScript" />
         <FaReact className="icon" title="React.js" />
+        <GrGatsbyjs className="icon" title="Gatsby.js" />
+        <GrGraphQl className="icon" title="GraphQL" />
         <FaNode className="icon" title="Node.js" />
         <DiMongodb className="icon" title="MongoDB" />
         <FaAws className="icon" title="Amazon Web Services" />

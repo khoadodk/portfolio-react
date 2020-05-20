@@ -1,86 +1,109 @@
 const projects = [
   {
-    id: 19,
-    title: 'eLearn',
-    img: 'elearn.png',
-    description: 'An online Tutorials and Courses sharing platform',
+    id: 21,
+    title: "new road",
+    img: "newroad.PNG",
+    description: "A travel agency website built with JAM stack",
+    type: ["../../images/icons/react.svg", "../../images/icons/gatsbyjs.svg"],
+    github: "https://github.com/khoadodk/newroad-gatsby",
+    demo: "https://newroad.netlify.app",
+  },
+  {
+    id: 20,
+    title: "google pin",
+    img: "googlepin.PNG",
+    description: "A travel log app with Google Map",
     type: [
-      '../../images/icons/react.svg',
-      '../../images/icons/node.svg',
-      '../../images/icons/database.svg',
-      '../../images/icons/aws.svg'
+      "../../images/icons/react.svg",
+      "../../images/icons/graphql.svg",
+      "../../images/icons/node.svg",
+      "../../images/icons/database.svg",
     ],
-    github: 'https://github.com/khoadodk/multi-users-app',
-    demo: 'http://khoado.site'
+    github: "https://github.com/khoadodk/googlepin",
+    demo: "https://googlepin-khoado.netlify.app",
+  },
+  {
+    id: 19,
+    title: "eLearn",
+    img: "elearn.png",
+    description: "An online Tutorials and Courses sharing platform",
+    type: [
+      "../../images/icons/react.svg",
+      "../../images/icons/node.svg",
+      "../../images/icons/database.svg",
+      "../../images/icons/aws.svg",
+    ],
+    github: "https://github.com/khoadodk/multi-users-app",
+    demo: "http://khoado.site",
   },
   {
     id: 18,
-    title: 'Furniture',
-    img: 'furniture-store.png',
-    description: 'An eCommerce store built with Next.js and Semantic UI',
+    title: "Furniture",
+    img: "furniture-store.png",
+    description: "An eCommerce store built with Next.js and Semantic UI",
     type: [
-      '../../images/icons/react.svg',
-      '../../images/icons/node.svg',
-      '../../images/icons/database.svg'
+      "../../images/icons/react.svg",
+      "../../images/icons/node.svg",
+      "../../images/icons/database.svg",
     ],
-    github: 'https://github.com/khoadodk/furniture-store',
-    demo: 'https://furniture-store.now.sh'
+    github: "https://github.com/khoadodk/furniture-store",
+    demo: "https://furniture-store.now.sh",
   },
-  {
-    id: 1000,
-    title: 'Blog',
-    img: 'blog.png',
-    description: 'Programming blog built with Next.js for SEO',
-    type: [
-      '../../images/icons/react.svg',
-      '../../images/icons/node.svg',
-      '../../images/icons/database.svg',
-      '../../images/icons/aws.svg'
-    ],
-    github: 'https://github.com/khoadodk/blog',
-    demo: 'http://ec2-54-244-56-122.us-west-2.compute.amazonaws.com'
-  },
+  // {
+  //   id: 1000,
+  //   title: 'Blog',
+  //   img: 'blog.png',
+  //   description: 'Programming blog built with Next.js for SEO',
+  //   type: [
+  //     '../../images/icons/react.svg',
+  //     '../../images/icons/node.svg',
+  //     '../../images/icons/database.svg',
+  //     '../../images/icons/aws.svg'
+  //   ],
+  //   github: 'https://github.com/khoadodk/blog',
+  //   demo: 'http://ec2-54-244-56-122.us-west-2.compute.amazonaws.com'
+  // },
   {
     id: 17,
-    title: 'Book Store',
-    img: 'ecommerce-mern.png',
+    title: "Book Store",
+    img: "ecommerce-mern.png",
     description:
-      'A production level eCommerce store with tons of features. Click on Demo for details.',
+      "A production level eCommerce store with tons of features. Click on Demo for details.",
     type: [
-      '../../images/icons/react.svg',
-      '../../images/icons/node.svg',
-      '../../images/icons/database.svg'
+      "../../images/icons/react.svg",
+      "../../images/icons/node.svg",
+      "../../images/icons/database.svg",
     ],
-    github: 'https://github.com/khoadodk/ECommerce-MERN',
-    demo: 'https://bookstore-khoado.herokuapp.com/about'
+    github: "https://github.com/khoadodk/ECommerce-MERN",
+    demo: "https://bookstore-khoado.herokuapp.com/about",
   },
-  {
-    id: 16,
-    title: 'MERN Boilerplate',
-    img: 'boilerplateMERN.png',
-    description:
-      'Login/register system with Google and Facebook, forgot/reset password and account activation.',
-    type: [
-      '../../images/icons/react.svg',
-      '../../images/icons/node.svg',
-      '../../images/icons/database.svg'
-    ],
-    github: 'https://github.com/khoadodk/boilerplate-mern-stack',
-    demo: 'https://obscure-cove-86522.herokuapp.com/'
-  },
-  {
-    id: 15,
-    title: 'Party Booking',
-    img: 'party.png',
-    description: 'Having a party? Use this app to book your friends.',
-    type: [
-      '../../images/icons/react.svg',
-      '../../images/icons/node.svg',
-      '../../images/icons/database.svg'
-    ],
-    github: 'https://github.com/khoadodk/party-MERN',
-    demo: 'https://party-khoado.herokuapp.com/'
-  },
+  // {
+  //   id: 16,
+  //   title: "MERN Boilerplate",
+  //   img: "boilerplateMERN.png",
+  //   description:
+  //     "Login/register system with Google and Facebook, forgot/reset password and account activation.",
+  //   type: [
+  //     "../../images/icons/react.svg",
+  //     "../../images/icons/node.svg",
+  //     "../../images/icons/database.svg",
+  //   ],
+  //   github: "https://github.com/khoadodk/boilerplate-mern-stack",
+  //   demo: "https://obscure-cove-86522.herokuapp.com/",
+  // },
+  // {
+  //   id: 15,
+  //   title: 'Party Booking',
+  //   img: 'party.png',
+  //   description: 'Having a party? Use this app to book your friends.',
+  //   type: [
+  //     '../../images/icons/react.svg',
+  //     '../../images/icons/node.svg',
+  //     '../../images/icons/database.svg'
+  //   ],
+  //   github: 'https://github.com/khoadodk/party-MERN',
+  //   demo: 'https://party-khoado.herokuapp.com/'
+  // },
   // {
   //   id: 14,
   //   title: 'Medium Clone',
@@ -93,22 +116,22 @@ const projects = [
   // },
   {
     id: 13,
-    title: 'Kruise',
-    img: 'kruise.png',
-    description: 'A UX/UI project for a commercial cruise booking website.',
-    type: ['../../images/icons/sass.svg'],
-    github: 'https://github.com/khoadodk/kruise',
-    demo: 'https://khoado-kruise.netlify.com'
+    title: "Kruise",
+    img: "kruise.png",
+    description: "A UX/UI project for a commercial cruise booking website.",
+    type: ["../../images/icons/sass.svg"],
+    github: "https://github.com/khoadodk/kruise",
+    demo: "https://khoado-kruise.netlify.com",
   },
-  {
-    id: 12,
-    title: 'Clothes Store',
-    img: 'clothesstore.png',
-    description: 'The landing page of a retail store.',
-    type: ['../../images/icons/sass.svg'],
-    github: 'https://github.com/khoadodk/clothesStore',
-    demo: 'https://clothesstore-khoado.netlify.com/'
-  }
+  // {
+  //   id: 12,
+  //   title: 'Clothes Store',
+  //   img: 'clothesstore.png',
+  //   description: 'The landing page of a retail store.',
+  //   type: ['../../images/icons/sass.svg'],
+  //   github: 'https://github.com/khoadodk/clothesStore',
+  //   demo: 'https://clothesstore-khoado.netlify.com/'
+  // }
   // {
   //   id: 12,
   //   title: 'Social Forum',
