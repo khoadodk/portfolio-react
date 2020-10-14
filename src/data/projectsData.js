@@ -1,5 +1,14 @@
 const projects = [
   {
+    id: 23,
+    title: 'Doctor Appointment',
+    img: 'appointment.PNG',
+    description: 'A doctor booking appointment app',
+    type: ['../../images/icons/laravel.svg'],
+    github: 'https://github.com/khoadodk/appointment-laravel',
+    demo: 'http://appointment-laravel.herokuapp.com/'
+  },
+  {
     id: 22,
     title: 'Shownima',
     img: 'shownima.PNG',
