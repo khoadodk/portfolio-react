@@ -1,5 +1,18 @@
 const projects = [
   {
+    id: 24,
+    title: 'MERN shop',
+    img: 'mern-shop.PNG',
+    description: 'Production-ready eCommerce store',
+    type: [
+      '../../images/icons/react.svg',
+      '../../images/icons/node.svg',
+      '../../images/icons/database.svg'
+    ],
+    github: 'https://github.com/khoadodk/mern-shop',
+    demo: 'https://mern-shop.netlify.app'
+  },
+  {
     id: 23,
     title: 'Doctor Appointment',
     img: 'appointment.PNG',
@@ -40,20 +53,20 @@ const projects = [
     github: 'https://github.com/khoadodk/googlepin',
     demo: 'https://googlepin-khoado.netlify.app'
   },
-  {
-    id: 19,
-    title: 'eLearn',
-    img: 'elearn.png',
-    description: 'An online Tutorials and Courses sharing platform',
-    type: [
-      '../../images/icons/react.svg',
-      '../../images/icons/node.svg',
-      '../../images/icons/database.svg',
-      '../../images/icons/aws.svg'
-    ],
-    github: 'https://github.com/khoadodk/multi-users-app',
-    demo: 'http://khoado.site'
-  },
+  // {
+  //   id: 19,
+  //   title: 'eLearn',
+  //   img: 'elearn.png',
+  //   description: 'An online Tutorials and Courses sharing platform',
+  //   type: [
+  //     '../../images/icons/react.svg',
+  //     '../../images/icons/node.svg',
+  //     '../../images/icons/database.svg',
+  //     '../../images/icons/aws.svg'
+  //   ],
+  //   github: 'https://github.com/khoadodk/multi-users-app',
+  //   demo: 'http://khoado.site'
+  // },
   {
     id: 18,
     title: 'Furniture',
@@ -66,7 +79,7 @@ const projects = [
     ],
     github: 'https://github.com/khoadodk/furniture-store',
     demo: 'https://furniture-store.now.sh'
-  },
+  }
   // {
   //   id: 1000,
   //   title: 'Blog',
@@ -81,20 +94,20 @@ const projects = [
   //   github: 'https://github.com/khoadodk/blog',
   //   demo: 'http://ec2-54-244-56-122.us-west-2.compute.amazonaws.com'
   // },
-  {
-    id: 17,
-    title: 'Book Store',
-    img: 'ecommerce-mern.png',
-    description:
-      'A production level eCommerce store with tons of features. Click on Demo for details.',
-    type: [
-      '../../images/icons/react.svg',
-      '../../images/icons/node.svg',
-      '../../images/icons/database.svg'
-    ],
-    github: 'https://github.com/khoadodk/ECommerce-MERN',
-    demo: 'https://bookstore-khoado.herokuapp.com/about'
-  }
+  // {
+  //   id: 17,
+  //   title: 'Book Store',
+  //   img: 'ecommerce-mern.png',
+  //   description:
+  //     'A production level eCommerce store with tons of features. Click on Demo for details.',
+  //   type: [
+  //     '../../images/icons/react.svg',
+  //     '../../images/icons/node.svg',
+  //     '../../images/icons/database.svg'
+  //   ],
+  //   github: 'https://github.com/khoadodk/ECommerce-MERN',
+  //   demo: 'https://bookstore-khoado.herokuapp.com/about'
+  // }
   // {
   //   id: 16,
   //   title: "MERN Boilerplate",
