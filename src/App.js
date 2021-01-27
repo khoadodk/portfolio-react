@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import './App.css';
 import projects from './data/projectsData';
 
@@ -13,15 +11,6 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 class App extends Component {
-  componentDidMount() {
-    AOS.init({
-      easing: 'ease-out-back',
-      duration: 1000,
-      delay: 100,
-      disable: 'mobile'
-    });
-  }
-
   render() {
     return (
       <div>
