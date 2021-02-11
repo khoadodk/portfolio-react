@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css';
+import './Skills.scss';
 import {
   FaHtml5,
   FaCss3,
@@ -8,7 +8,8 @@ import {
   FaNode,
   FaBootstrap,
   FaSass,
-  FaAws
+  FaAws,
+  FaShopify
 } from 'react-icons/fa';
 import { DiMongodb, DiLaravel } from 'react-icons/di';
 import { GrGatsbyjs, GrGraphQl } from 'react-icons/gr';
@@ -43,6 +44,7 @@ const Skills = () => {
         <DiMongodb className='icon' title='MongoDB' />
         <FaAws className='icon' title='Amazon Web Services' />
         <DiLaravel className='icon' title='Laravel' />
+        <FaShopify className='icon' title="Liquid" />
       </div>
     </section>
   );

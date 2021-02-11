@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import Typed from 'react-typed';
 import { FaGithub, FaLinkedin, FaCode } from "react-icons/fa";
-import "./Hero.css";
+import "./Hero.scss";
 import Particles from "react-particles-js";
 
 class Hero extends Component {

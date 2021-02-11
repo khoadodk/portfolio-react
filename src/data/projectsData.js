@@ -1,4 +1,13 @@
 const projects = [
+  {   
+    id: 25,
+    title: 'Fitra band',
+    img: 'fitra.PNG',
+    description: 'Shopify eCommerce store',
+    type: ['../../images/icons/shopify.svg'],
+    github: 'https://github.com/khoadodk/fitraband',
+    demo: 'https://fitraband.myshopify.com/'
+  },
   {
     id: 24,
     title: 'MERN shop',
