@@ -1,14 +1,15 @@
 .hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--mainBlack);
   height: 70vh;
-  padding-top: 150px;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   .particle {
     position: absolute;
-    height: 70vh;
-    width: 100vw;
-    z-index: 500;
+    width: 100%;
   }
   .hero-container {
     align-items: center;

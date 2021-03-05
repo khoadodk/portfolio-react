@@ -24,10 +24,10 @@ class Hero extends Component {
           },
         },
         number: {
-          value: 100,
+          value: 50,
           density: {
             enable: true,
-            value_area: 1200,
+            value_area: 1000,
           },
         },
       },

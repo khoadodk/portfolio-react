@@ -1,6 +1,6 @@
 const projects = [
   {
-    id: 24,
+    id: 6,
     title: "woodecor",
     img: "woodecor.PNG",
     description: "Production-ready eCommerce store",
@@ -13,7 +13,7 @@ const projects = [
     demo: "https://mern-shop.netlify.app",
   },
   {
-    id: 22,
+    id: 5,
     title: "Shownima",
     img: "shownima.PNG",
     description: "A movie database app",
@@ -22,7 +22,7 @@ const projects = [
     demo: "https://d31nd2zfb66cta.cloudfront.net",
   },
   {
-    id: 21,
+    id: 4,
     title: "new road",
     img: "newroad.PNG",
     description: "A travel agency website built with JAM stack",
@@ -31,7 +31,7 @@ const projects = [
     demo: "https://newroad.netlify.app",
   },
   {
-    id: 20,
+    id: 3,
     title: "google pin",
     img: "googlepin.PNG",
     description: "A travel log app with Google Map",
@@ -45,7 +45,7 @@ const projects = [
     demo: "https://googlepin-khoado.netlify.app",
   },
   {
-    id: 18,
+    id: 2,
     title: "Furniture",
     img: "furniture-store.png",
     description: "An eCommerce store built with Next.js and Semantic UI",
@@ -58,7 +58,7 @@ const projects = [
     demo: "https://furniture-store.now.sh",
   },
   {
-    id: 23,
+    id: 1,
     title: "Doctor Appointment",
     img: "appointment.PNG",
     description: "A doctor booking appointment app",
