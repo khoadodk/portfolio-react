@@ -1,5 +1,14 @@
 const projects = [
   {
+    id: 7,
+    title: "Welly",
+    img: "welly.png",
+    description: "A general theme for shopify store",
+    type: ["../../images/icons/shopify.svg"],
+    github: "https://github.com/khoadodk/welly",
+    demo: "https://welly-health.myshopify.com/",
+  },
+  {
     id: 6,
     title: "woodecor",
     img: "woodecor.PNG",
