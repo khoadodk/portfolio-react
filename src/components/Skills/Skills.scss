@@ -1,5 +1,4 @@
 #skills {
-  text-align: center;
   width: 100%;
   background-color: var(--mainGrey);
 
@@ -7,12 +6,15 @@
     font-size: 20px;
     position: relative !important;
     h1 {
+      text-align: center;
       margin: 0;
       padding: 20px 0;
     }
     p {
-      padding: 0 30px;
-      line-height: 30px;
+      display: block;
+      margin: 10px auto;
+      width: 60%;
+      line-height: 40px;
       @media (max-width: 414px) {
         font-size: 15px;
       }
