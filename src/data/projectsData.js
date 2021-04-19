@@ -1,21 +1,21 @@
 const projects = [
   {
     id: 8,
+    title: "DK Theme",
+    img: "dk-theme.png",
+    description: "A general store Shopify theme",
+    type: ["../../images/icons/shopify.svg"],
+    github: "https://github.com/khoadodk/dk-theme-shopify",
+    demo: "https://dk-general-store-theme.myshopify.com",
+  },
+  {
+    id: 7,
     title: "Welly",
     img: "welly.PNG",
     description: "A general theme for shopify store",
     type: ["../../images/icons/shopify.svg"],
     github: "https://github.com/khoadodk/welly",
     demo: "https://welly-health.myshopify.com/",
-  },
-  {
-    id: 7,
-    title: "Galaxy Light Box",
-    img: "galaxy.png",
-    description: "A minimal store tweated from Debut theme",
-    type: ["../../images/icons/shopify.svg"],
-    github: "https://github.com/khoadodk/galaxy-light-box",
-    demo: "https://galaxy-light-box.myshopify.com",
   },
   {
     id: 6,
