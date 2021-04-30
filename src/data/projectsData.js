@@ -1,7 +1,16 @@
 const projects = [
   {
     id: 8,
-    title: "DK Theme",
+    title: "Gym WordPress Theme",
+    img: "gymtheme.png",
+    description: "A WP theme fro gym owners",
+    type: ["../../images/icons/wordpress.svg"],
+    github: "https://github.com/khoadodk/gym-wp-theme",
+    demo: "http://socksmeme.com",
+  },
+  {
+    id: 8,
+    title: "DK Shopify Theme",
     img: "dk-theme.png",
     description: "A general store Shopify theme",
     type: ["../../images/icons/shopify.svg"],
@@ -48,20 +57,20 @@ const projects = [
     github: "https://github.com/khoadodk/newroad-gatsby",
     demo: "https://newroad.netlify.app",
   },
-  {
-    id: 3,
-    title: "google pin",
-    img: "googlepin.PNG",
-    description: "A travel log app with Google Map",
-    type: [
-      "../../images/icons/react.svg",
-      "../../images/icons/graphql.svg",
-      "../../images/icons/node.svg",
-      "../../images/icons/database.svg",
-    ],
-    github: "https://github.com/khoadodk/googlepin",
-    demo: "https://googlepin-khoado.netlify.app",
-  },
+  // {
+  //   id: 3,
+  //   title: "google pin",
+  //   img: "googlepin.PNG",
+  //   description: "A travel log app with Google Map",
+  //   type: [
+  //     "../../images/icons/react.svg",
+  //     "../../images/icons/graphql.svg",
+  //     "../../images/icons/node.svg",
+  //     "../../images/icons/database.svg",
+  //   ],
+  //   github: "https://github.com/khoadodk/googlepin",
+  //   demo: "https://googlepin-khoado.netlify.app",
+  // },
   {
     id: 2,
     title: "Furniture",
