@@ -1,6 +1,15 @@
 const projects = [
   {
-    id: 8,
+    id: 10,
+    title: "Related Theme",
+    img: "related.png",
+    description: "A Shopify theme",
+    type: ["../../images/icons/shopify.svg"],
+    github: "https://github.com/khoadodk/related-theme-shopify",
+    demo: "https://theme-related.myshopify.com",
+  },
+  {
+    id: 9,
     title: "Gym WordPress Theme",
     img: "gymtheme.png",
     description: "A WP theme fro gym owners",
@@ -84,15 +93,15 @@ const projects = [
     github: "https://github.com/khoadodk/furniture-store",
     demo: "https://furniture-store.now.sh",
   },
-  {
-    id: 1,
-    title: "Doctor Appointment",
-    img: "appointment.PNG",
-    description: "A doctor booking appointment app",
-    type: ["../../images/icons/laravel.svg"],
-    github: "https://github.com/khoadodk/appointment-laravel",
-    demo: "http://appointment-laravel.herokuapp.com/",
-  },
+  // {
+  //   id: 1,
+  //   title: "Doctor Appointment",
+  //   img: "appointment.PNG",
+  //   description: "A doctor booking appointment app",
+  //   type: ["../../images/icons/laravel.svg"],
+  //   github: "https://github.com/khoadodk/appointment-laravel",
+  //   demo: "http://appointment-laravel.herokuapp.com/",
+  // },
 ];
 
 export default projects;
